@@ -1,5 +1,4 @@
 import ModCard from "../components/ModCard.jsx";
-import {useEffect} from "react";
 
 export default function Home(){
     return (
