@@ -3,11 +3,12 @@ import Button from "@mui/material/Button";
 import LinkTextIconButton from "../components/LinkTextIconButton.jsx";
 import LanguageIcon from '@mui/icons-material/Language';
 import VersionCard from "../components/VersionCard.jsx";
+import gameplayBG from "../assets/ps_gameplay.png";
 
 export default function ProductiveSlimes() {
     return (
         <main>
-            <section className="w-full relative bg-[url(/ps_gameplay.png)] bg-no-repeat bg-bottom bg-fixed h-fit">
+            <section className={`w-full relative bg-[url(${gameplayBG})] bg-no-repeat bg-bottom bg-fixed h-fit`}>
                 <div className="w-full absolute h-full bg-neutral-800/75 z-0"></div>
                 <section className="w-10/12 grid grid-cols-2 mx-auto justify-center items-center relative py-10 z-10">
                     <div className="flex flex-col justify-between items-center">
