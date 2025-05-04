@@ -7,7 +7,7 @@ import VersionCard from "../components/VersionCard.jsx";
 export default function ProductiveSlimes() {
     return (
         <main>
-            <section className={`w-full relative bg-[url(https://github.com/CoolerProYT/CoolerProMC-Mods/blob/master/src/assets/ps_gameplay.png?raw=true)] bg-no-repeat bg-bottom bg-fixed h-fit`}>
+            <section className={`w-full relative bg-[url(../ps_gameplay.png] bg-no-repeat bg-bottom bg-fixed h-fit`}>
                 <div className="w-full absolute h-full bg-neutral-800/75 z-0"></div>
                 <section className="w-10/12 grid grid-cols-2 mx-auto justify-center items-center relative py-10 z-10">
                     <div className="flex flex-col justify-between items-center">
