@@ -122,6 +122,7 @@ export default function NavBar() {
                                 <ModDropdownCard handleClose={handleClose} from={"from-indigo-500"} to={"to-purple-600"} name={"More Gears"} image={"more_gears.png"} link={"more-gears"}/>
                                 <ModDropdownCard handleClose={handleClose} from={"from-orange-500"} to={"to-orange-600"} name={"Lake Feature Fix"} image={"lake_feature_fix.png"} link={"lake-feature-fix"}/>
                                 <ModDropdownCard handleClose={handleClose} from={"from-[#644A07]"} to={"to-[#594100]"} name={"Uncraft Everything"} image={"uncraft_everything.png"} link={"uncraft-everything"}/>
+                                <ModDropdownCard handleClose={handleClose} from={"from-[#fcba03]"} to={"to-[#997000]"} name={"Unstrip Log"} image={"unstrip_log.png"} link={"unstrip-log"}/>
                             </Menu>
                         </div>
                     </Box>

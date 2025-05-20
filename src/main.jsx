@@ -5,6 +5,7 @@ import {Routes, Route, HashRouter, useLocation} from "react-router-dom";
 import Home from './pages/Home'
 import NavBar from "./layouts/NavBar.jsx";
 import ProductiveSlimes from "./pages/ProductiveSlimes.jsx";
+import MoreGears from "./pages/MoreGears.jsx";
 
 function App() {
     const location = useLocation();
@@ -12,7 +13,7 @@ function App() {
 
     useEffect(() => {
         const currentPath = location.pathname.slice(1);
-        setShouldShowNav(currentPath != "");
+        setShouldShowNav(currentPath !== "");
     }, [location]);
 
     return (
@@ -21,6 +22,7 @@ function App() {
             <Routes>
                 <Route index element={<Home />}/>
                 <Route path="/productive-slimes" element={<ProductiveSlimes />}/>
+                <Route path="/more-gears" element={<MoreGears />}/>
             </Routes>
         </>
     );

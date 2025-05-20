@@ -10,11 +10,8 @@ export default function Home(){
                 <ModCard logo={"productiveslimes.png"} from={"from-lime-500"} to={"to-lime-600"} name={"Productive Slimes"} link={"productive-slimes"}/>
                 <ModCard logo={"more_gears.png"} from={"from-indigo-500"} to={"to-purple-600"} name={"More Gears"} link={"more-gears"}/>
                 <ModCard logo={"lake_feature_fix.png"} from={"from-orange-500"} to={"to-orange-600"} name={"Lake Feature Fix"} link={"lake-feature-fix"}/>
-                <div className="xl:col-span-3 2xl:col-span-1 flex justify-center">
-                    <div className="xl:w-1/3 2xl:w-full">
-                        <ModCard logo={"uncraft_everything.png"} from={"from-[#644A07]"} to={"to-[#594100]"} name={"Uncraft Everything"} link={"uncraft-everything"}/>
-                    </div>
-                </div>
+                <ModCard logo={"uncraft_everything.png"} from={"from-[#644A07]"} to={"to-[#594100]"} name={"Uncraft Everything"} link={"uncraft-everything"}/>
+                <ModCard logo={"unstrip_log.png"} from={"from-[#fcba03]"} to={"to-[#997000]"} name={"Unstrip Log"} link={"unstrip-log"}/>
             </div>
         </main>
     )

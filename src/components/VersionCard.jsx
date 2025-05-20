@@ -1,6 +1,6 @@
-export default function VersionCard({version, forge, neoforge, fabric, from, to, className}) {
+export default function VersionCard({version, forge, neoforge, fabric, from, to}) {
     return (
-        <div className={`relative group transition-all duration-300 ${className}`}>
+        <div className={`relative group transition-all duration-300 w-[46%] md:w-[29%] lg:w-[21%] mx-[2%] my-3`}>
             <div className={`absolute -inset-0.5 bg-gradient-to-r ${from} ${to} rounded-xl opacity-75 blur-sm animate-pulse`}></div>
             <div className="relative border border-transparent rounded-xl px-3 py-5 flex flex-col items-center justify-center bg-neutral-800 h-full">
                 <span className="text-2xl font-semibold">{version}</span>
