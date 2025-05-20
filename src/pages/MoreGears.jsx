@@ -18,7 +18,7 @@ export default function MoreGears() {
                             <LinkTextIconButton link="https://github.com/CoolerProYT/MoreGears" borderColor="#333333" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#333333" icon={<GitHubIcon />} text="Github"/>
                             <LinkTextIconButton link="https://www.curseforge.com/minecraft/mc-mods/more-gears" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#a3561f" icon={<img src="cf.png" className="h-6 w-6"/>} text="CurseForge"/>
                             <LinkTextIconButton link="https://modrinth.com/mod/more-gears" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#178b46" icon={<img src="modrinth.png" className="h-6 w-6"/>} text="Modrinth"/>
-                            <LinkTextIconButton link="https://github.com/CoolerProYT/MoreGears/wiki" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#8dc29b" icon={<LanguageIcon />} text="Wiki"/>
+                            <LinkTextIconButton link="https://github.com/CoolerProYT/MoreGears/wiki" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#7a64e8" icon={<LanguageIcon />} text="Wiki"/>
                         </div>
                     </div>
                     <div className="justify-center items-center hidden lg:flex">

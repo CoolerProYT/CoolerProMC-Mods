@@ -12,7 +12,8 @@ export default function LinkTextIconButton({link, borderColor, bgcolor, color, h
                     bgcolor: hoverBgColor,  // hover background
                 },
                 py: '.75rem',
-                px: '.5rem'
+                px: '.5rem',
+                cursor: link === "" ? "not-allowed" : "pointer",
             }}
         >
             {icon} <span className="ms-2">{text}</span>
