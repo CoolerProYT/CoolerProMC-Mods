@@ -33,14 +33,13 @@ export default function UncraftEverything() {
                     </div>
                     <div className="mt-5 flex justify-center flex-wrap">
                         <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.16.5"} forge={true} fabric={true}/>
+                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.18.2"} forge={true}/>
+                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.19.2"} forge={true}/>
                         <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.20.1"} forge={true} fabric={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.20.6"} neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.1"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.1"} neoforge={true} fabric={true} forge={true}/>
                         <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.4"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.5"} neoforge={true} fabric={true} forge={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"25w18a"} fabric={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"25w19a"} fabric={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"25w20a"} fabric={true}/>
+                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.6-1.21.8"} neoforge={true} fabric={true} forge={true}/>
                     </div>
                 </section>
             </section>

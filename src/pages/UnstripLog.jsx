@@ -36,6 +36,7 @@ export default function UnstripLog() {
                         <VersionCard from={"from-[#fcba03]"} to={"to-[#997000]"} version={"1.21.3"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#fcba03]"} to={"to-[#997000]"} version={"1.21.4"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#fcba03]"} to={"to-[#997000]"} version={"1.21.5"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#fcba03]"} to={"to-[#997000]"} version={"1.21.8"} neoforge={true} fabric={true}/>
                     </div>
                 </section>
             </section>

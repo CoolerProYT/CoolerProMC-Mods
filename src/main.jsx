@@ -1,7 +1,7 @@
 import {StrictMode, useState, useEffect} from 'react'
 import {createRoot} from 'react-dom/client'
 import './index.css'
-import {Routes, Route, HashRouter, useLocation} from "react-router-dom";
+import {Routes, Route, BrowserRouter, useLocation} from "react-router-dom";
 import Home from './pages/Home'
 import NavBar from "./layouts/NavBar.jsx";
 import ProductiveSlimes from "./pages/ProductiveSlimes.jsx";
@@ -37,8 +37,8 @@ function App() {
 const root = createRoot(document.getElementById('root'));
 root.render(
     <StrictMode>
-        <HashRouter>
+        <BrowserRouter>
             <App />
-        </HashRouter>
+        </BrowserRouter>
     </StrictMode>
 );
