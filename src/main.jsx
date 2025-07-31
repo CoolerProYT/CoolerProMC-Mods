@@ -9,6 +9,7 @@ import MoreGears from "./pages/MoreGears.jsx";
 import LakeFeatureFix from "./pages/LakeFeatureFix.jsx";
 import UncraftEverything from "./pages/UncraftEverything.jsx";
 import UnstripLog from "./pages/UnstripLog.jsx";
+import ArrowPlus from "./pages/ArrowPlus.jsx";
 
 function App() {
     const location = useLocation();
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/lake-feature-fix" element={<LakeFeatureFix />}/>
                 <Route path="/uncraft-everything" element={<UncraftEverything />}/>
                 <Route path="/unstrip-log" element={<UnstripLog />}/>
+                <Route path="/arrow-plus" element={<ArrowPlus />}/>
             </Routes>
         </>
     );

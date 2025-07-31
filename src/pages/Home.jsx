@@ -12,6 +12,7 @@ export default function Home(){
                 <ModCard logo={"lake_feature_fix.png"} from={"from-orange-500"} to={"to-orange-600"} name={"Lake Feature Fix"} link={"lake-feature-fix"}/>
                 <ModCard logo={"uncraft_everything.png"} from={"from-[#644A07]"} to={"to-[#594100]"} name={"Uncraft Everything"} link={"uncraft-everything"}/>
                 <ModCard logo={"unstrip_log.png"} from={"from-[#fcba03]"} to={"to-[#997000]"} name={"Unstrip Log"} link={"unstrip-log"}/>
+                <ModCard logo={"arrow+.png"} from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} name={"Arrow+"} link={"arrow-plus"}/>
             </div>
         </main>
     )
