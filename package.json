@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && npm run postbuild",
-    "postbuild": "copy build-templates\\.gitignore dist\\.gitignore && copy build-templates\\.htaccess dist\\.htaccess",
+    "postbuild": "copy build-templates\\.gitignore dist\\.gitignore && copy build-templates\\.htaccess dist\\.htaccess && copy build-templates\\ads.txt dist\\ads.txt",
     "deploy": "cd dist && git add -A && git commit -m \"Deploy dist\" && git push",
     "lint": "eslint .",
     "preview": "vite preview"
