@@ -10,6 +10,7 @@ import LakeFeatureFix from "./pages/LakeFeatureFix.jsx";
 import UncraftEverything from "./pages/UncraftEverything.jsx";
 import UnstripLog from "./pages/UnstripLog.jsx";
 import ArrowPlus from "./pages/ArrowPlus.jsx";
+import ResoucesTrees from "./pages/ResoucesTrees.jsx";
 
 function App() {
     const location = useLocation();
@@ -31,6 +32,7 @@ function App() {
                 <Route path="/uncraft-everything" element={<UncraftEverything />}/>
                 <Route path="/unstrip-log" element={<UnstripLog />}/>
                 <Route path="/arrow-plus" element={<ArrowPlus />}/>
+                <Route path="/resources-trees" element={<ResoucesTrees />}/>
             </Routes>
         </>
     );

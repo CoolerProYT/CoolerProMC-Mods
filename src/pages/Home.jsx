@@ -13,6 +13,7 @@ export default function Home(){
                 <ModCard logo={"uncraft_everything.png"} from={"from-[#644A07]"} to={"to-[#594100]"} name={"Uncraft Everything"} link={"uncraft-everything"}/>
                 <ModCard logo={"unstrip_log.png"} from={"from-[#fcba03]"} to={"to-[#997000]"} name={"Unstrip Log"} link={"unstrip-log"}/>
                 <ModCard logo={"arrow+.png"} from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} name={"Arrow+"} link={"arrow-plus"}/>
+                <ModCard logo={"resources_trees.png"} from={"from-green-400"} to={"to-green-500"} name={"Resources Trees"} link={"resources-trees"}/>
             </div>
         </main>
     )
