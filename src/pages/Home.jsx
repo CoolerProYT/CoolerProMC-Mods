@@ -14,6 +14,7 @@ export default function Home(){
                 <ModCard logo={"unstrip_log.png"} from={"from-[#fcba03]"} to={"to-[#997000]"} name={"Unstrip Log"} link={"unstrip-log"}/>
                 <ModCard logo={"arrow+.png"} from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} name={"Arrow+"} link={"arrow-plus"}/>
                 <ModCard logo={"resources_trees.png"} from={"from-green-400"} to={"to-green-500"} name={"Resources Trees"} link={"resources-trees"}/>
+                <ModCard logo={"fletching_recipe.png"} from={"from-yellow-400"} to={"to-yellow-500"} name={"Fletching Recipe"} link={"fletching-recipe"}/>
             </div>
         </main>
     )

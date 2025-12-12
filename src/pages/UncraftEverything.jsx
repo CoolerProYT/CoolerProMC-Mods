@@ -18,7 +18,7 @@ export default function UncraftEverything() {
                             <LinkTextIconButton link="https://github.com/CoolerProYT/UncraftEverything" borderColor="#333333" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#333333" icon={<GitHubIcon />} text="Github"/>
                             <LinkTextIconButton link="https://www.curseforge.com/minecraft/mc-mods/uncraft-everything" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#a3561f" icon={<img src="cf.png" className="h-6 w-6"/>} text="CurseForge"/>
                             <LinkTextIconButton link="https://modrinth.com/mod/uncraft-everything" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#178b46" icon={<img src="modrinth.png" className="h-6 w-6"/>} text="Modrinth"/>
-                            <LinkTextIconButton link="https://uncrafteverything.coolerpromc.com/Home" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#644A07" icon={<LanguageIcon />} text="Wiki"/>
+                            <LinkTextIconButton link="https://uncrafteverything.coolerpromc.com" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#644A07" icon={<LanguageIcon />} text="Wiki"/>
                         </div>
                     </div>
                     <div className="justify-center items-center hidden lg:flex">
@@ -32,14 +32,19 @@ export default function UncraftEverything() {
                         <span className="text-3xl font-semibold">Minecraft Versions</span>
                     </div>
                     <div className="mt-5 flex justify-center flex-wrap">
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.16.5"} forge={true} fabric={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.18.2"} forge={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.19.2"} forge={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.16.5"} forge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.18.2"} forge={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.19.2"} forge={true}/>
                         <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.20.1"} forge={true} fabric={true}/>
                         <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.1"} neoforge={true} fabric={true} forge={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.4"} neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.5"} neoforge={true} fabric={true} forge={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.6-1.21.8"} neoforge={true} fabric={true} forge={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.4"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.5"} neoforge={true} fabric={true} forge={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.6-1.21.8"} neoforge={true} fabric={true} forge={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.9-1.21.10"} neoforge={true} fabric={true} forge={true}/>
+                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.11"} neoforge={true} fabric={true} forge={true}/>
+                    </div>
+                    <div className="text-center mt-3">
+                        <span className="text-md text-zinc-400">(Version with red glowing are version that no longer maintained)</span>
                     </div>
                 </section>
             </section>

@@ -11,6 +11,7 @@ import UncraftEverything from "./pages/UncraftEverything.jsx";
 import UnstripLog from "./pages/UnstripLog.jsx";
 import ArrowPlus from "./pages/ArrowPlus.jsx";
 import ResoucesTrees from "./pages/ResoucesTrees.jsx";
+import FletchingRecipe from "./pages/FletchingRecipe.jsx";
 
 function App() {
     const location = useLocation();
@@ -33,6 +34,7 @@ function App() {
                 <Route path="/unstrip-log" element={<UnstripLog />}/>
                 <Route path="/arrow-plus" element={<ArrowPlus />}/>
                 <Route path="/resources-trees" element={<ResoucesTrees />}/>
+                <Route path="/fletching-recipe" element={<FletchingRecipe />}/>
             </Routes>
         </>
     );

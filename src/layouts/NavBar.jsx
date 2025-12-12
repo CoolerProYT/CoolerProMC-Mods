@@ -124,6 +124,8 @@ export default function NavBar() {
                                 <ModDropdownCard handleClose={handleClose} from={"from-[#644A07]"} to={"to-[#594100]"} name={"Uncraft Everything"} image={"uncraft_everything.png"} link={"uncraft-everything"}/>
                                 <ModDropdownCard handleClose={handleClose} from={"from-[#fcba03]"} to={"to-[#997000]"} name={"Unstrip Log"} image={"unstrip_log.png"} link={"unstrip-log"}/>
                                 <ModDropdownCard handleClose={handleClose} from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} name={"Arrow+"} image={"arrow+.png"} link={"arrow-plus"}/>
+                                <ModDropdownCard handleClose={handleClose} from={"from-green-400"} to={"to-green-500"} name={"Resources Trees"} image={"resources_trees.png"} link={"resources-trees"}/>
+                                <ModDropdownCard handleClose={handleClose} from={"from-yellow-400"} to={"to-yellow-500"} name={"Fletching Recipe"} image={"fletching_recipe.png"} link={"fletching-recipe"}/>
                             </Menu>
                         </div>
                     </Box>
