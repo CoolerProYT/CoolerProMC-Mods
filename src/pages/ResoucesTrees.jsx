@@ -34,7 +34,8 @@ export default function ResoucesTrees() {
                     <div className="mt-5 flex justify-center flex-wrap">
                         <VersionCard from={"from-green-400"} to={"to-green-500"} version={"1.20.1"} forge={true} />
                         <VersionCard from={"from-green-400"} to={"to-green-500"} version={"1.21.1"}  neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-green-400"} to={"to-green-500"} version={"1.21.9"} forge={true} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-green-400"} to={"to-green-500"} version={"1.21.10"} forge={true} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-green-400"} to={"to-green-500"} version={"1.21.11"} forge={true} neoforge={true} fabric={true}/>
                     </div>
                 </section>
             </section>

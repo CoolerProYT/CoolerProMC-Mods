@@ -12,6 +12,9 @@ import UnstripLog from "./pages/UnstripLog.jsx";
 import ArrowPlus from "./pages/ArrowPlus.jsx";
 import ResoucesTrees from "./pages/ResoucesTrees.jsx";
 import FletchingRecipe from "./pages/FletchingRecipe.jsx";
+import EasyBrewing from "./pages/EasyBrewing.jsx";
+import ArcheryThings from "./pages/ArcheryThings.jsx";
+import BetterCampfirePot from "./pages/BetterCampfirePot.jsx";
 
 function App() {
     const location = useLocation();
@@ -35,6 +38,9 @@ function App() {
                 <Route path="/arrow-plus" element={<ArrowPlus />}/>
                 <Route path="/resources-trees" element={<ResoucesTrees />}/>
                 <Route path="/fletching-recipe" element={<FletchingRecipe />}/>
+                <Route path="/easy-brewing" element={<EasyBrewing />}/>
+                <Route path="/archery-things" element={<ArcheryThings />}/>
+                <Route path="/better-campfire-pot" element={<BetterCampfirePot />}/>
             </Routes>
         </>
     );

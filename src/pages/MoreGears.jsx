@@ -34,9 +34,14 @@ export default function MoreGears() {
                     <div className="mt-5 flex justify-center flex-wrap">
                         <VersionCard from={"from-indigo-500"} to={"to-purple-600"} version={"1.20.1"} forge={true} fabric={true}/>
                         <VersionCard from={"from-indigo-500"} to={"to-purple-600"} version={"1.21.1"} neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-indigo-500"} to={"to-purple-600"} version={"1.21.4"} neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-indigo-500"} to={"to-purple-600"} version={"1.21.5"} neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-indigo-500"} to={"to-purple-600"} version={"1.21.8"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.4"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.5"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.8"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-indigo-500"} to={"to-purple-600"} version={"1.21.10"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-indigo-500"} to={"to-purple-600"} version={"1.21.11"} neoforge={true} fabric={true}/>
+                    </div>
+                    <div className="text-center mt-3">
+                        <span className="text-md text-zinc-400">(Version with red outline are version that no longer maintained)</span>
                     </div>
                 </section>
             </section>

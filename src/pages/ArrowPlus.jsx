@@ -18,7 +18,7 @@ export default function ArrowPlus() {
                             <LinkTextIconButton link="https://github.com/CoolerProYT/ArrowPlus" borderColor="#333333" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#333333" icon={<GitHubIcon />} text="Github"/>
                             <LinkTextIconButton link="https://www.curseforge.com/minecraft/mc-mods/arrow" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#a3561f" icon={<img src="cf.png" className="h-6 w-6"/>} text="CurseForge"/>
                             <LinkTextIconButton link="https://modrinth.com/mod/arrow+" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#178b46" icon={<img src="modrinth.png" className="h-6 w-6"/>} text="Modrinth"/>
-                            <LinkTextIconButton link="" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#997000" icon={<LanguageIcon />} text="Wiki"/>
+                            <LinkTextIconButton link="https://datagen.coolerpromc.com/arrowplus/arrow_data" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#997000" icon={<LanguageIcon />} text="Wiki"/>
                         </div>
                     </div>
                     <div className="justify-center items-center hidden lg:flex">
@@ -32,11 +32,16 @@ export default function ArrowPlus() {
                         <span className="text-3xl font-semibold">Minecraft Versions</span>
                     </div>
                     <div className="mt-5 flex justify-center flex-wrap">
-                        <VersionCard from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} version={"1.20.1"} forge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.20.1"} forge={true} fabric={true}/>
                         <VersionCard from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} version={"1.21.1"} forge={true} neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} version={"1.21.4"} forge={true} neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} version={"1.21.5"} forge={true} neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} version={"1.21.6 - 1.21.8"} forge={true} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.4"} forge={true} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.5"} forge={true} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.8"} forge={true} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} version={"1.21.10"} forge={true} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#bdbdbd]"} to={"to-[#f5f5f5]"} version={"1.21.11"} forge={true} neoforge={true} fabric={true}/>
+                    </div>
+                    <div className="text-center mt-3">
+                        <span className="text-md text-zinc-400">(Version with red outline are version that no longer maintained)</span>
                     </div>
                 </section>
             </section>

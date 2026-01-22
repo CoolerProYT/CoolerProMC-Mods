@@ -12,13 +12,13 @@ export default function FletchingRecipe() {
                 <section className="w-10/12 grid lg:grid-cols-3 xl:grid-cols-2 mx-auto justify-center items-center relative py-10 z-10">
                     <div className="flex flex-col justify-between items-center lg:col-span-2 xl:col-span-1">
                         <div>
-                            <span className="text-3xl md:text-5xl font-semibold tracking-wider">Resources Trees</span>
+                            <span className="text-3xl md:text-5xl font-semibold tracking-wider">Fletching Recipe</span>
                         </div>
                         <div className="mt-8 grid gap-6 lg:gap-1 xl:gap-4 grid-cols-2 md:grid-cols-4">
                             <LinkTextIconButton link="https://github.com/CoolerProYT/FletchingRecipe" borderColor="#333333" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#333333" icon={<GitHubIcon />} text="Github"/>
                             <LinkTextIconButton link="https://www.curseforge.com/minecraft/mc-mods/fletching-recipe" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#a3561f" icon={<img src="cf.png" className="h-6 w-6"/>} text="CurseForge"/>
                             <LinkTextIconButton link="https://modrinth.com/mod/fletching-recipe" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#178b46" icon={<img src="modrinth.png" className="h-6 w-6"/>} text="Modrinth"/>
-                            <LinkTextIconButton link="https://github.com/CoolerProYT/FletchingRecipe/blob/1.21.x-neoforge/README.md" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#ffce47" icon={<LanguageIcon />} text="Wiki"/>
+                            <LinkTextIconButton link="https://datagen.coolerpromc.com/fletchingrecipe" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#ffce47" icon={<LanguageIcon />} text="Wiki"/>
                         </div>
                     </div>
                     <div className="justify-center items-center hidden lg:flex">
