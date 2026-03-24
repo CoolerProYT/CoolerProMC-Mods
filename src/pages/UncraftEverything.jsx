@@ -35,17 +35,17 @@ export default function UncraftEverything() {
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.16.5"} forge={true} fabric={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.18.2"} forge={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.19.2"} forge={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.20.1"} forge={true} fabric={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.1"} neoforge={true} fabric={true} forge={true}/>
+                        <VersionCard from={"from-[#ffff00]"} to={"to-[#ffff00]"} version={"1.20.1"} forge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ffff00]"} to={"to-[#ffff00]"} version={"1.21.1"} neoforge={true} fabric={true} forge={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.4"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.5"} neoforge={true} fabric={true} forge={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.6-1.21.8"} neoforge={true} fabric={true} forge={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.9-1.21.10"} neoforge={true} fabric={true} forge={true}/>
-                        <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"1.21.11"} neoforge={true} fabric={true} forge={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.11"} neoforge={true} fabric={true} forge={true}/>
                         <VersionCard from={"from-[#644A07]"} to={"to-[#594100]"} version={"26.1"} neoforge={true} fabric={true}/>
                     </div>
                     <div className="text-center mt-3">
-                        <span className="text-md text-zinc-400">(Version with red glowing are version that no longer maintained)</span>
+                        <span className="text-md text-zinc-400">(Version with red glowing are version that no longer maintained, yellow glowing are version that will receive bug fix)</span>
                     </div>
                 </section>
             </section>

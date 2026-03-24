@@ -15,10 +15,10 @@ export default function UnstripLog() {
                             <span className="text-3xl md:text-5xl font-semibold tracking-wider">Unstrip Log</span>
                         </div>
                         <div className="mt-8 grid gap-6 lg:gap-1 xl:gap-4 grid-cols-2 md:grid-cols-4">
-                            <LinkTextIconButton link="" borderColor="#333333" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#333333" icon={<GitHubIcon />} text="Github"/>
+                            <LinkTextIconButton link="https://github.com/CoolerProYT/UnstripLogNeo" borderColor="#333333" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#333333" icon={<GitHubIcon />} text="Github"/>
                             <LinkTextIconButton link="https://www.curseforge.com/minecraft/mc-mods/unstriplog" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#a3561f" icon={<img src="cf.png" className="h-6 w-6"/>} text="CurseForge"/>
                             <LinkTextIconButton link="https://modrinth.com/mod/unstriplog" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#178b46" icon={<img src="modrinth.png" className="h-6 w-6"/>} text="Modrinth"/>
-                            <LinkTextIconButton link="" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#997000" icon={<LanguageIcon />} text="Wiki"/>
+                            <LinkTextIconButton link="https://unstriplog.coolerpromc.com/" borderColor="#2e2e2e" bgcolor="#1e1e1e" color="#f8f9fa" hoverBgColor="#997000" icon={<LanguageIcon />} text="Wiki"/>
                         </div>
                     </div>
                     <div className="justify-center items-center hidden lg:flex">
@@ -32,16 +32,17 @@ export default function UnstripLog() {
                         <span className="text-3xl font-semibold">Minecraft Versions</span>
                     </div>
                     <div className="mt-5 flex justify-center flex-wrap">
-                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.1"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ffff00]"} to={"to-[#ffff00]"} version={"1.21.1"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.3"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.4"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.5"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.8"} neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-[#fcba03]"} to={"to-[#997000]"} version={"1.21.10"} neoforge={true} fabric={true}/>
-                        <VersionCard from={"from-[#fcba03]"} to={"to-[#997000]"} version={"1.21.11"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.10"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.11"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-[#fcba03]"} to={"to-[#997000]"} version={"26.1"} neoforge={true} fabric={true}/>
                     </div>
                     <div className="text-center mt-3">
-                        <span className="text-md text-zinc-400">(Version with red outline are version that no longer maintained)</span>
+                        <span className="text-md text-zinc-400">(Version with red glowing are version that no longer maintained, yellow glowing are version that will receive bug fix)</span>
                     </div>
                 </section>
             </section>
