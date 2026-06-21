@@ -36,6 +36,7 @@ export default function EasyBrewing() {
                         <VersionCard from={"from-[#ffff00]"} to={"to-[#ffff00]"} version={"1.21.1"}  neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.11"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-blue-400"} to={"to-blue-500"} version={"26.1"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-blue-400"} to={"to-blue-500"} version={"26.2"} neoforge={true} fabric={true}/>
                     </div>
                 </section>
                 <div className="text-center mt-3">

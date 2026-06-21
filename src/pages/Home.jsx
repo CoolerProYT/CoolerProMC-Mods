@@ -17,7 +17,9 @@ export default function Home(){
                 <ModCard logo={"easy_brewing.png"} from={"from-blue-400"} to={"to-blue-500"} name={"Easy Brewing"} link={"easy-brewing"}/>
                 <ModCard logo={"lake_feature_fix.png"} from={"from-orange-500"} to={"to-orange-600"} name={"Lake Feature Fix"} link={"lake-feature-fix"}/>
                 <ModCard logo={"unstrip_log.png"} from={"from-[#fcba03]"} to={"to-[#997000]"} name={"Unstrip Log"} link={"unstrip-log"}/>
-                <ModCard logo={"productiveslimes.png"} from={"from-lime-500"} to={"to-lime-600"} name={"Productive Slimes"} link={"productive-slimes"}/>
+                <ModCard logo={"more_sponge.png"} from={"from-amber-400"} to={"to-amber-500"} name={"More Sponge"} link={"more-sponge"}/>
+                <ModCard logo={"terracotta_things.png"} from={"from-[#c4522a]"} to={"to-[#8b3a1d]"} name={"Terracotta Things"} link={"terracotta-things"}/>
+                <ModCard logo={"restricted_inventory.png"} from={"from-red-600"} to={"to-red-800"} name={"Restricted Inventory"} link={"restricted-inventory"}/>
             </div>
         </main>
     )

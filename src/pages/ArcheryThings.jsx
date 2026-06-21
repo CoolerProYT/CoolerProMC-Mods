@@ -35,6 +35,7 @@ export default function ArcheryThings() {
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.10"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.11"} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-blue-400"} to={"to-blue-500"} version={"26.1"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-blue-400"} to={"to-blue-500"} version={"26.2"} neoforge={true} fabric={true}/>
                     </div>
                     <div className="text-center mt-3">
                         <span className="text-md text-zinc-400">(Version with red glowing are version that no longer maintained, yellow glowing are version that will receive bug fix)</span>

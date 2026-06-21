@@ -15,6 +15,9 @@ import FletchingRecipe from "./pages/FletchingRecipe.jsx";
 import EasyBrewing from "./pages/EasyBrewing.jsx";
 import ArcheryThings from "./pages/ArcheryThings.jsx";
 import BetterCampfirePot from "./pages/BetterCampfirePot.jsx";
+import MoreSponge from "./pages/MoreSponge.jsx";
+import TerracottaThings from "./pages/TerracottaThings.jsx";
+import RestrictedInventory from "./pages/RestrictedInventory.jsx";
 
 function App() {
     const location = useLocation();
@@ -41,6 +44,9 @@ function App() {
                 <Route path="/easy-brewing" element={<EasyBrewing />}/>
                 <Route path="/archery-things" element={<ArcheryThings />}/>
                 <Route path="/better-campfire-pot" element={<BetterCampfirePot />}/>
+                <Route path="/more-sponge" element={<MoreSponge />}/>
+                <Route path="/terracotta-things" element={<TerracottaThings />}/>
+                <Route path="/restricted-inventory" element={<RestrictedInventory />}/>
             </Routes>
         </>
     );

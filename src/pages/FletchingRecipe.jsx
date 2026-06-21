@@ -37,6 +37,7 @@ export default function FletchingRecipe() {
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.10"} forge={true} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-[#ff0000]"} to={"to-[#ff0000]"} version={"1.21.11"} forge={true} neoforge={true} fabric={true}/>
                         <VersionCard from={"from-yellow-400"} to={"to-yellow-500"} version={"26.1"} neoforge={true} fabric={true}/>
+                        <VersionCard from={"from-yellow-400"} to={"to-yellow-500"} version={"26.2"} neoforge={true} fabric={true}/>
                     </div>
                 </section>
                 <div className="text-center mt-3">

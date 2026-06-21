@@ -129,6 +129,9 @@ export default function NavBar() {
                                 <ModDropdownCard handleClose={handleClose} from={"from-blue-400"} to={"to-blue-500"} name={"Easy Brewing"} image={"easy_brewing.png"} link={"easy-brewing"}/>
                                 <ModDropdownCard handleClose={handleClose} from={"from-orange-400"} to={"to-orange-500"} name={"Archery Things"} image={"archery_things.png"} link={"archery-things"}/>
                                 <ModDropdownCard handleClose={handleClose} from={"from-red-400"} to={"to-red-500"} name={"Better Campfire Pot"} image={"better_campfire_pot.png"} link={"better-campfire-pot"}/>
+                                <ModDropdownCard handleClose={handleClose} from={"from-amber-400"} to={"to-amber-500"} name={"More Sponge"} image={"more_sponge.png"} link={"more-sponge"}/>
+                                <ModDropdownCard handleClose={handleClose} from={"from-[#c4522a]"} to={"to-[#8b3a1d]"} name={"Terracotta Things"} image={"terracotta_things.png"} link={"terracotta-things"}/>
+                                <ModDropdownCard handleClose={handleClose} from={"from-red-600"} to={"to-red-800"} name={"Restricted Inventory"} image={"restricted_inventory.png"} link={"restricted-inventory"}/>
                             </Menu>
                         </div>
                     </Box>
