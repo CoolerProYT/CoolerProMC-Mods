@@ -4,18 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "node scripts/thumbs.mjs",
     "dev": "vite",
-    "build": "vite build && npm run postbuild",
-    "postbuild": "copy build-templates\\.gitignore dist\\.gitignore && copy build-templates\\.htaccess dist\\.htaccess && copy build-templates\\ads.txt dist\\ads.txt",
-    "deploy": "npm run build && cd dist && git add -A && git commit -m \"Deploy dist\" && git push",
+    "prebuild": "node scripts/thumbs.mjs && node scripts/modrinth-versions.mjs && node scripts/curseforge.mjs",
+    "build": "vite build",
+    "postbuild": "node scripts/postbuild.mjs",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "thumbs": "node scripts/thumbs.mjs",
+    "stats": "node scripts/modrinth-versions.mjs && node scripts/curseforge.mjs"
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
-    "@mui/icons-material": "^7.0.2",
-    "@mui/material": "^7.0.2",
     "@tailwindcss/vite": "^4.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -31,6 +30,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
+    "sharp": "^0.35.4",
     "vite": "^6.3.1"
   }
 }

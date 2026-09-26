@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-09-26T07:00:00.000Z",
+  "source": "snapshot",
+  "mods": {
+    "uncraft-everything": {"id": 1244428, "downloads": 252409, "updated": null, "published": null},
+    "cobblemon-better-campfire-pot": {"id": 1437573, "downloads": 207019, "updated": null, "published": null},
+    "experience-skills": {"id": 1611330, "downloads": 1138, "updated": null, "published": null},
+    "more-gears": {"id": 1180717, "downloads": 54012, "updated": null, "published": null},
+    "skipping-stone": {"id": 1702284, "downloads": 105, "updated": null, "published": null},
+    "configurable-sponge": {"id": 1702392, "downloads": 62, "updated": null, "published": null},
+    "fishtrap": {"id": 1698064, "downloads": 277, "updated": null, "published": null},
+    "ancient-creature": {"id": 1630188, "downloads": 779, "updated": null, "published": null},
+    "archery-things": {"id": 1418219, "downloads": 28564, "updated": null, "published": null},
+    "arrow": {"id": 1317209, "downloads": 11493, "updated": null, "published": null},
+    "craftulator": {"id": 1656564, "downloads": 186, "updated": null, "published": null},
+    "easy-brewing": {"id": 1405256, "downloads": 10877, "updated": null, "published": null},
+    "fletching-recipe": {"id": 1364606, "downloads": 51342, "updated": null, "published": null},
+    "more-sponge": {"id": 1562784, "downloads": 591, "updated": null, "published": null},
+    "resourcestrees": {"id": 1354532, "downloads": 47140, "updated": null, "published": null},
+    "restricted-inventory": {"id": 1569997, "downloads": 1625, "updated": null, "published": null},
+    "terracotta-things": {"id": 1548711, "downloads": 1887, "updated": null, "published": null},
+    "unstriplog": {"id": 1268448, "downloads": 6651, "updated": null, "published": null},
+    "lake-feature-fix": {"id": 1203911, "downloads": 58326, "updated": null, "published": null},
+    "productive-slimes": {"id": 1096659, "downloads": 6881, "updated": null, "published": null}
+  }
+}

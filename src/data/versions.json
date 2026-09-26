@@ -1,0 +1,650 @@
+{
+  "generatedAt": "2026-09-26T08:26:10.043Z",
+  "mods": {
+    "uncraft-everything": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "26.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.11": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.20.1": [
+        "forge",
+        "fabric"
+      ],
+      "1.16.5": [
+        "forge",
+        "fabric"
+      ],
+      "1.18.2": [
+        "forge"
+      ],
+      "1.19.2": [
+        "forge"
+      ],
+      "1.21.5": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.8": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.10": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.9": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.6": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.7": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.4": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.20.6": [
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "cobblemon-better-campfire-pot": {
+      "1.21.1": [
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "more-gears": {
+      "26.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.11": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.10": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.20.1": [
+        "forge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.4": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.5": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.8": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.9": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.7": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.6": [
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "resourcestrees": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.10": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.11": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.20.1": [
+        "forge"
+      ],
+      "1.21.9": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "arrow+": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.10": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.11": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.20.1": [
+        "forge",
+        "fabric"
+      ],
+      "1.21.9": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.6": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.7": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.8": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.5": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.4": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "archery-things": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.10": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.11": [
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "fletching-recipe": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.10": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.11": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ],
+      "1.20.1": [
+        "forge",
+        "fabric"
+      ]
+    },
+    "easy-brewing": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.20.1": [
+        "forge",
+        "fabric"
+      ],
+      "1.21.11": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "lake-feature-fix": {
+      "1.21": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.4": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.5": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.6": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.7": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.8": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.9": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.10": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.11": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "unstriplog": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.11": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.10": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.5": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.6": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.7": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.8": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.9": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.4": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.3": [
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "more-sponge": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "terracotta-things": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "forge",
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "restricted-inventory": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.11": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.20.1": [
+        "forge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "experience-skills": {
+      "26.1.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "craftulator-coolerpromc": {
+      "26.3": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.20.1": [
+        "forge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "26.2": [
+        "neoforge",
+        "fabric"
+      ]
+    },
+    "productiveslimes": {
+      "1.21.11": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.10": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.9": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.8": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.7": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.6": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.5": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.4": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.21.1": [
+        "neoforge",
+        "fabric"
+      ],
+      "1.20.1": [
+        "forge",
+        "fabric"
+      ],
+      "1.21.3": [
+        "neoforge"
+      ],
+      "1.19.2": [
+        "forge"
+      ],
+      "1.18.2": [
+        "forge"
+      ],
+      "1.16.5": [
+        "forge"
+      ]
+    }
+  }
+}

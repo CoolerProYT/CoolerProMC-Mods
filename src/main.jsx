@@ -1,62 +1,67 @@
-import {StrictMode, useState, useEffect} from 'react'
-import {createRoot} from 'react-dom/client'
-import './index.css'
-import {Routes, Route, BrowserRouter, useLocation} from "react-router-dom";
-import Home from './pages/Home'
-import NavBar from "./layouts/NavBar.jsx";
-import ProductiveSlimes from "./pages/ProductiveSlimes.jsx";
-import MoreGears from "./pages/MoreGears.jsx";
-import LakeFeatureFix from "./pages/LakeFeatureFix.jsx";
-import UncraftEverything from "./pages/UncraftEverything.jsx";
-import UnstripLog from "./pages/UnstripLog.jsx";
-import ArrowPlus from "./pages/ArrowPlus.jsx";
-import ResoucesTrees from "./pages/ResoucesTrees.jsx";
-import FletchingRecipe from "./pages/FletchingRecipe.jsx";
-import EasyBrewing from "./pages/EasyBrewing.jsx";
-import ArcheryThings from "./pages/ArcheryThings.jsx";
-import BetterCampfirePot from "./pages/BetterCampfirePot.jsx";
-import MoreSponge from "./pages/MoreSponge.jsx";
-import TerracottaThings from "./pages/TerracottaThings.jsx";
-import RestrictedInventory from "./pages/RestrictedInventory.jsx";
+import {StrictMode, useEffect, useState} from "react";
+import {createRoot} from "react-dom/client";
+import {BrowserRouter, Route, Routes, useLocation} from "react-router-dom";
+import "./index.css";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import CommandPalette from "./components/CommandPalette.jsx";
+import Home from "./pages/Home.jsx";
+import ModPage from "./pages/ModPage.jsx";
+import Versions from "./pages/Versions.jsx";
+import NotFound from "./pages/NotFound.jsx";
+
+function ScrollManager() {
+    const {pathname, hash} = useLocation();
+    useEffect(() => {
+        if (hash) {
+            document.getElementById(hash.slice(1))?.scrollIntoView();
+        } else {
+            window.scrollTo(0, 0);
+        }
+    }, [pathname, hash]);
+    return null;
+}
 
 function App() {
-    const location = useLocation();
-    const [shouldShowNav, setShouldShowNav] = useState(false);
+    const [paletteOpen, setPaletteOpen] = useState(false);
 
     useEffect(() => {
-        const currentPath = location.pathname.slice(1);
-        setShouldShowNav(currentPath !== "");
-    }, [location]);
+        const onKey = (e) => {
+            const typing = /INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName);
+            if ((e.key === "k" && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
+                e.preventDefault();
+                setPaletteOpen((o) => !o);
+            }
+        };
+        window.addEventListener("keydown", onKey);
+        return () => window.removeEventListener("keydown", onKey);
+    }, []);
 
     return (
-        <>
-            {shouldShowNav && <NavBar />}
-            <Routes>
-                <Route index element={<Home />}/>
-                <Route path="/productive-slimes" element={<ProductiveSlimes />}/>
-                <Route path="/more-gears" element={<MoreGears />}/>
-                <Route path="/lake-feature-fix" element={<LakeFeatureFix />}/>
-                <Route path="/uncraft-everything" element={<UncraftEverything />}/>
-                <Route path="/unstrip-log" element={<UnstripLog />}/>
-                <Route path="/arrow-plus" element={<ArrowPlus />}/>
-                <Route path="/resources-trees" element={<ResoucesTrees />}/>
-                <Route path="/fletching-recipe" element={<FletchingRecipe />}/>
-                <Route path="/easy-brewing" element={<EasyBrewing />}/>
-                <Route path="/archery-things" element={<ArcheryThings />}/>
-                <Route path="/better-campfire-pot" element={<BetterCampfirePot />}/>
-                <Route path="/more-sponge" element={<MoreSponge />}/>
-                <Route path="/terracotta-things" element={<TerracottaThings />}/>
-                <Route path="/restricted-inventory" element={<RestrictedInventory />}/>
-            </Routes>
-        </>
+        <div className="flex min-h-dvh flex-col">
+            <a href="#content" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-diamond focus:px-4 focus:py-2 focus:text-ink-950">
+                Skip to content
+            </a>
+            <ScrollManager/>
+            <Navbar onSearch={() => setPaletteOpen(true)}/>
+            <div id="content" className="flex-1">
+                <Routes>
+                    <Route index element={<Home/>}/>
+                    <Route path="/versions" element={<Versions/>}/>
+                    <Route path="/:slug" element={<ModPage/>}/>
+                    <Route path="*" element={<NotFound/>}/>
+                </Routes>
+            </div>
+            <Footer/>
+            <CommandPalette open={paletteOpen} onClose={() => setPaletteOpen(false)}/>
+        </div>
     );
 }
 
-const root = createRoot(document.getElementById('root'));
-root.render(
+createRoot(document.getElementById("root")).render(
     <StrictMode>
         <BrowserRouter>
-            <App />
+            <App/>
         </BrowserRouter>
-    </StrictMode>
+    </StrictMode>,
 );
