@@ -69,7 +69,7 @@ function useAsync(fn, deps) {
 /** Map of modrinth slug -> {downloads, followers, updated, published, versionIds} */
 export function fetchProjects() {
     const ids = JSON.stringify(mods.map((m) => m.modrinth).filter(Boolean));
-    return cachedFetch("mr:projects", `${API}/projects?ids=${encodeURIComponent(ids)}`, (list) =>
+    return cachedFetch("mr2:projects", `${API}/projects?ids=${encodeURIComponent(ids)}`, (list) =>
         Object.fromEntries(
             list.map((p) => [
                 p.slug,
@@ -94,7 +94,7 @@ export function useReleases(modrinthSlug, limit = 6) {
         const ids = projects[modrinthSlug]?.versionIds ?? [];
         if (!ids.length) return [];
         const list = await cachedFetch(
-            `mr:versions:${modrinthSlug}`,
+            `mr2:versions:${modrinthSlug}`,
             `${API}/versions?ids=${encodeURIComponent(JSON.stringify(ids))}`,
             (vs) =>
                 vs.map((x) => ({
@@ -114,9 +114,11 @@ export function useReleases(modrinthSlug, limit = 6) {
         for (const x of [...list].sort((a, b) => b.date.localeCompare(a.date))) {
             const g = groups.get(x.number);
             if (!g) {
-                groups.set(x.number, {...x, loaders: [...x.loaders], gameVersions: [...x.gameVersions]});
+                // ids: Modrinth version ID per loader, so each loader can link to its own file.
+                groups.set(x.number, {...x, loaders: [...x.loaders], gameVersions: [...x.gameVersions], ids: Object.fromEntries(x.loaders.map((l) => [l, x.id]))});
                 continue;
             }
+            for (const l of x.loaders) g.ids[l] ??= x.id;
             g.downloads += x.downloads;
             for (const l of x.loaders) if (!g.loaders.includes(l)) g.loaders.push(l);
             for (const gv of x.gameVersions) if (!g.gameVersions.includes(gv)) g.gameVersions.push(gv);

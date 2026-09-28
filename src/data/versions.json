@@ -1,650 +1,650 @@
 {
-  "generatedAt": "2026-09-28T14:23:49.572Z",
+  "generatedAt": "2026-09-28T14:33:39.709Z",
   "mods": {
     "uncraft-everything": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "26.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.11": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.20.1": [
-        "forge",
-        "fabric"
-      ],
-      "1.16.5": [
-        "forge",
-        "fabric"
-      ],
-      "1.18.2": [
-        "forge"
-      ],
-      "1.19.2": [
-        "forge"
-      ],
-      "1.21.5": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.8": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.10": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.9": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.6": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.7": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.4": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.20.6": [
-        "neoforge",
-        "fabric"
-      ]
+      "26.3": {
+        "fabric": "xGWgk9E0",
+        "neoforge": "lddvvV0S"
+      },
+      "26.2": {
+        "fabric": "2CnwIUsg",
+        "neoforge": "GPluUFaI"
+      },
+      "26.1.2": {
+        "neoforge": "oWTa1yPn",
+        "fabric": "7t0Iajx9"
+      },
+      "1.21.1": {
+        "neoforge": "Pz63RaMs",
+        "forge": "KeFh0FdZ",
+        "fabric": "nqWuHabu"
+      },
+      "26.1": {
+        "neoforge": "qEORArCh",
+        "fabric": "azup9Q2o"
+      },
+      "26.1.1": {
+        "neoforge": "qEORArCh",
+        "fabric": "azup9Q2o"
+      },
+      "1.21.11": {
+        "fabric": "qcvjrMiz",
+        "forge": "HVlxbLWV",
+        "neoforge": "RAIQNNqu"
+      },
+      "1.20.1": {
+        "forge": "91Cm6squ",
+        "fabric": "LLoRc6Bv"
+      },
+      "1.16.5": {
+        "forge": "XrVgTMPC",
+        "fabric": "P3WWtzMo"
+      },
+      "1.18.2": {
+        "forge": "YsFYT9ez"
+      },
+      "1.19.2": {
+        "forge": "vj89eg27"
+      },
+      "1.21.5": {
+        "forge": "1xEBXjwC",
+        "neoforge": "oKp2yZlr",
+        "fabric": "YmecWLIu"
+      },
+      "1.21.8": {
+        "forge": "hJDH7iiA",
+        "fabric": "XYnWO5ur",
+        "neoforge": "d4HDT3Yg"
+      },
+      "1.21.10": {
+        "forge": "KBsORP7M",
+        "neoforge": "4BPxdHfb",
+        "fabric": "ut18ZUil"
+      },
+      "1.21.9": {
+        "neoforge": "K5fEUMII",
+        "fabric": "cKdNdxQd",
+        "forge": "bV6p83Px"
+      },
+      "1.21.6": {
+        "fabric": "XYnWO5ur",
+        "forge": "EAIO0Rmi",
+        "neoforge": "UsjpVDT6"
+      },
+      "1.21.7": {
+        "fabric": "XYnWO5ur",
+        "neoforge": "d4HDT3Yg",
+        "forge": "EAIO0Rmi"
+      },
+      "1.21.4": {
+        "neoforge": "oQbMelyc",
+        "fabric": "AXOoe5KZ"
+      },
+      "1.20.6": {
+        "neoforge": "z6fUSqbe",
+        "fabric": "oEkn0aS2"
+      }
     },
     "cobblemon-better-campfire-pot": {
-      "1.21.1": [
-        "neoforge",
-        "fabric"
-      ]
+      "1.21.1": {
+        "fabric": "aiPCRicD",
+        "neoforge": "GBsGiuXH"
+      }
     },
     "more-gears": {
-      "26.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.11": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.10": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.20.1": [
-        "forge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.4": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.5": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.8": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.9": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.7": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.6": [
-        "neoforge",
-        "fabric"
-      ]
+      "26.1": {
+        "neoforge": "fWQhOVsu",
+        "fabric": "6rn1PUFO"
+      },
+      "26.1.1": {
+        "neoforge": "fWQhOVsu",
+        "fabric": "6rn1PUFO"
+      },
+      "26.1.2": {
+        "neoforge": "fWQhOVsu",
+        "fabric": "6rn1PUFO"
+      },
+      "26.2": {
+        "fabric": "5c8C8jqt",
+        "neoforge": "mc5GPcly"
+      },
+      "26.3": {
+        "fabric": "dKIscNHr",
+        "neoforge": "SDbhjEaQ"
+      },
+      "1.21.11": {
+        "fabric": "MmdKcpTv",
+        "neoforge": "86HxTNrX"
+      },
+      "1.21.10": {
+        "fabric": "Xq8zroIq",
+        "neoforge": "aSZ9V8GK"
+      },
+      "1.20.1": {
+        "fabric": "nFsGwOC2",
+        "forge": "UjxMRikW"
+      },
+      "1.21.1": {
+        "fabric": "vle7zZZI",
+        "neoforge": "u16tIH6v"
+      },
+      "1.21.4": {
+        "fabric": "VznUUkZy",
+        "neoforge": "Y2a4Lo1s"
+      },
+      "1.21.5": {
+        "fabric": "s2Q9wNTQ",
+        "neoforge": "oapdSPaZ"
+      },
+      "1.21.8": {
+        "fabric": "fdnWyuMj",
+        "neoforge": "J1P8Un5k"
+      },
+      "1.21.9": {
+        "neoforge": "EXhINDx7",
+        "fabric": "dkdn0GfI"
+      },
+      "1.21.7": {
+        "neoforge": "H76qgevh",
+        "fabric": "fw0gmeky"
+      },
+      "1.21.6": {
+        "fabric": "ViUeYjJn",
+        "neoforge": "PHJ9nLF2"
+      }
     },
     "resourcestrees": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.10": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.11": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.20.1": [
-        "forge"
-      ],
-      "1.21.9": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ]
+      "26.3": {
+        "fabric": "Oom2PBJL",
+        "neoforge": "ok13oQJ8"
+      },
+      "26.2": {
+        "fabric": "bh5oXaGq",
+        "neoforge": "7pLIENHL"
+      },
+      "26.1.2": {
+        "fabric": "wmKWnsfF",
+        "neoforge": "ugtxe1Wq"
+      },
+      "1.21.1": {
+        "neoforge": "W3IH4v0x",
+        "fabric": "uEiBQhaD"
+      },
+      "26.1": {
+        "neoforge": "eVs6PTgJ",
+        "fabric": "XMQYEors"
+      },
+      "26.1.1": {
+        "neoforge": "eVs6PTgJ",
+        "fabric": "XMQYEors"
+      },
+      "1.21.10": {
+        "fabric": "iDojBb92",
+        "forge": "hho0ILr1",
+        "neoforge": "5jKEAG6X"
+      },
+      "1.21.11": {
+        "fabric": "GSSAGQYd",
+        "forge": "rIaD0vf6",
+        "neoforge": "45ka1rLN"
+      },
+      "1.20.1": {
+        "forge": "PyvaN2yN"
+      },
+      "1.21.9": {
+        "fabric": "7h1Ldd51",
+        "forge": "PYOrmk9v",
+        "neoforge": "7UKD0zXS"
+      }
     },
     "arrow+": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.10": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.11": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.20.1": [
-        "forge",
-        "fabric"
-      ],
-      "1.21.9": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.6": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.7": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.8": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.5": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.4": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ]
+      "26.3": {
+        "fabric": "DYjpCtDt",
+        "neoforge": "zP3NXMvS"
+      },
+      "26.1": {
+        "fabric": "CGwGL544",
+        "neoforge": "xGUAQWld"
+      },
+      "26.1.1": {
+        "fabric": "CGwGL544",
+        "neoforge": "xGUAQWld"
+      },
+      "26.1.2": {
+        "fabric": "CGwGL544",
+        "neoforge": "xGUAQWld"
+      },
+      "26.2": {
+        "fabric": "P0rINN1D",
+        "neoforge": "5XZm7aya"
+      },
+      "1.21.1": {
+        "neoforge": "yb47poBX",
+        "fabric": "Rov8UtL5",
+        "forge": "Hkzx5uvK"
+      },
+      "1.21.10": {
+        "fabric": "wXCyneeW",
+        "forge": "8KMaiUhm",
+        "neoforge": "ktVgM0tr"
+      },
+      "1.21.11": {
+        "fabric": "9U8ey5t7",
+        "forge": "EyQEZQWS",
+        "neoforge": "plbdrpil"
+      },
+      "1.20.1": {
+        "forge": "JW87LBE9",
+        "fabric": "HPpWj9nU"
+      },
+      "1.21.9": {
+        "forge": "2XHLv2Ag",
+        "neoforge": "KWaMMulT",
+        "fabric": "Yx5sdjVe"
+      },
+      "1.21.6": {
+        "forge": "qhBTKyjG",
+        "fabric": "wjuPpXzO",
+        "neoforge": "D896ng1x"
+      },
+      "1.21.7": {
+        "forge": "qhBTKyjG",
+        "fabric": "wjuPpXzO",
+        "neoforge": "D896ng1x"
+      },
+      "1.21.8": {
+        "forge": "qhBTKyjG",
+        "fabric": "wjuPpXzO",
+        "neoforge": "D896ng1x"
+      },
+      "1.21.5": {
+        "forge": "Jvvk3tlY",
+        "fabric": "VMsD0L8c",
+        "neoforge": "7dKj6JwK"
+      },
+      "1.21.4": {
+        "forge": "Ls0FzeF4",
+        "fabric": "SL4ujOaB",
+        "neoforge": "84Qv7WUj"
+      }
     },
     "archery-things": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.10": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.11": [
-        "neoforge",
-        "fabric"
-      ]
+      "26.3": {
+        "fabric": "CzEnZYGd",
+        "neoforge": "KRuVcON8"
+      },
+      "26.2": {
+        "neoforge": "OOezMBv2",
+        "fabric": "DWzWC2ct"
+      },
+      "26.1.2": {
+        "neoforge": "eSFdJKlV",
+        "fabric": "rsri1VYg"
+      },
+      "26.1": {
+        "fabric": "OAnsk5Gg",
+        "neoforge": "xqsJWiq3"
+      },
+      "26.1.1": {
+        "fabric": "OAnsk5Gg",
+        "neoforge": "xqsJWiq3"
+      },
+      "1.21.10": {
+        "fabric": "ynTCVwq0",
+        "neoforge": "b4DupIH4"
+      },
+      "1.21.11": {
+        "fabric": "i0dSXUY1",
+        "neoforge": "sZwGiGtn"
+      }
     },
     "fletching-recipe": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.10": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.11": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ],
-      "1.20.1": [
-        "forge",
-        "fabric"
-      ]
+      "26.3": {
+        "fabric": "tLryFnwG",
+        "neoforge": "PPDYlLTu"
+      },
+      "26.2": {
+        "fabric": "7QsKJ53M",
+        "neoforge": "eocZoUF8"
+      },
+      "26.1.2": {
+        "fabric": "gaLPaTqr",
+        "neoforge": "4jlpd1VE"
+      },
+      "26.1": {
+        "fabric": "AEFqX3sB",
+        "neoforge": "qXhzDK02"
+      },
+      "26.1.1": {
+        "fabric": "AEFqX3sB",
+        "neoforge": "qXhzDK02"
+      },
+      "1.21.1": {
+        "neoforge": "yJODCqaW",
+        "fabric": "vDkysYSs"
+      },
+      "1.21.10": {
+        "fabric": "v2WTFh25",
+        "forge": "181W4L5T",
+        "neoforge": "TBPLlV13"
+      },
+      "1.21.11": {
+        "fabric": "Trk0nQFm",
+        "forge": "mSpAPWGU",
+        "neoforge": "re2ovAtP"
+      },
+      "1.20.1": {
+        "fabric": "7v7sNaww",
+        "forge": "fpoMi78z"
+      }
     },
     "easy-brewing": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.20.1": [
-        "forge",
-        "fabric"
-      ],
-      "1.21.11": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ]
+      "26.3": {
+        "fabric": "EiTK7mLc",
+        "neoforge": "YMdUFPiH"
+      },
+      "26.2": {
+        "fabric": "MnIbAKYi",
+        "neoforge": "PdwOr1nd"
+      },
+      "1.21.1": {
+        "neoforge": "cWb5uNbt",
+        "fabric": "lSFLsNbK"
+      },
+      "26.1": {
+        "fabric": "FoxIZF4V",
+        "neoforge": "F5X54bro"
+      },
+      "26.1.1": {
+        "fabric": "FoxIZF4V",
+        "neoforge": "F5X54bro"
+      },
+      "26.1.2": {
+        "fabric": "FoxIZF4V",
+        "neoforge": "F5X54bro"
+      },
+      "1.20.1": {
+        "forge": "8tGPY95O",
+        "fabric": "3gYaFPD4"
+      },
+      "1.21.11": {
+        "fabric": "dQLIJJq2",
+        "forge": "gUB10lCP",
+        "neoforge": "JrBiNJcw"
+      }
     },
     "lake-feature-fix": {
-      "1.21": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.4": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.5": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.6": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.7": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.8": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.9": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.10": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.11": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ]
+      "1.21": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.1": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.2": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.3": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.4": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.5": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.6": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.7": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.8": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.9": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.10": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "1.21.11": {
+        "neoforge": "YdZAdyf8",
+        "fabric": "V0RE9JDO"
+      },
+      "26.1": {
+        "neoforge": "I8kECQQg",
+        "fabric": "F9vS1Mbf"
+      },
+      "26.1.1": {
+        "neoforge": "I8kECQQg",
+        "fabric": "F9vS1Mbf"
+      },
+      "26.1.2": {
+        "neoforge": "I8kECQQg",
+        "fabric": "F9vS1Mbf"
+      },
+      "26.2": {
+        "neoforge": "I8kECQQg",
+        "fabric": "F9vS1Mbf"
+      }
     },
     "unstriplog": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.11": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.10": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.5": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.6": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.7": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.8": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.9": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.4": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.3": [
-        "neoforge",
-        "fabric"
-      ]
+      "26.3": {
+        "fabric": "p8V1dYFR",
+        "neoforge": "gvMcTBUE"
+      },
+      "1.21.1": {
+        "neoforge": "RLrOdegE",
+        "fabric": "jttQtvpt"
+      },
+      "26.1.2": {
+        "fabric": "2uWOVKcY",
+        "neoforge": "Qp2UwXTi"
+      },
+      "26.2": {
+        "fabric": "iMM2yxgG",
+        "neoforge": "ccEe3ECq"
+      },
+      "26.1": {
+        "fabric": "KETYiClr",
+        "neoforge": "2lFX9tDO"
+      },
+      "26.1.1": {
+        "fabric": "KETYiClr",
+        "neoforge": "2lFX9tDO"
+      },
+      "1.21.11": {
+        "neoforge": "jgFWKiMe",
+        "fabric": "GbxnEjdW"
+      },
+      "1.21.10": {
+        "neoforge": "vm3lpDJq",
+        "fabric": "iNDZTgPj"
+      },
+      "1.21.5": {
+        "fabric": "iNDZTgPj",
+        "neoforge": "GbOo10iv"
+      },
+      "1.21.6": {
+        "fabric": "iNDZTgPj",
+        "neoforge": "tluxgkyj"
+      },
+      "1.21.7": {
+        "fabric": "iNDZTgPj",
+        "neoforge": "wb03Eg4Z"
+      },
+      "1.21.8": {
+        "fabric": "iNDZTgPj",
+        "neoforge": "A0goxWNC"
+      },
+      "1.21.9": {
+        "fabric": "iNDZTgPj",
+        "neoforge": "2uC7HeVj"
+      },
+      "1.21.4": {
+        "neoforge": "JAU3sTD0",
+        "fabric": "qrhlPNSH"
+      },
+      "1.21.3": {
+        "neoforge": "BIvXeuYR",
+        "fabric": "iXCbbeQm"
+      }
     },
     "more-sponge": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ]
+      "26.3": {
+        "neoforge": "iTzscywy",
+        "fabric": "KBMJZgs7"
+      },
+      "26.2": {
+        "neoforge": "h90gv50r",
+        "fabric": "IA5WWPR3"
+      },
+      "26.1.2": {
+        "fabric": "Dee5CL6E",
+        "neoforge": "rMhOV36e"
+      }
     },
     "terracotta-things": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "forge",
-        "neoforge",
-        "fabric"
-      ]
+      "26.3": {
+        "neoforge": "Qdg5wHuN",
+        "fabric": "NuC9RmaE"
+      },
+      "26.2": {
+        "neoforge": "RyivNSDD",
+        "fabric": "DPPCYTSp"
+      },
+      "26.1.2": {
+        "forge": "AXdqDrLY",
+        "fabric": "SjhTDvod",
+        "neoforge": "FuhgQrBw"
+      }
     },
     "restricted-inventory": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.11": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.20.1": [
-        "forge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ]
+      "26.3": {
+        "fabric": "eqMwcfsC",
+        "neoforge": "JW24a39V"
+      },
+      "1.21.11": {
+        "fabric": "ZVCf47cQ",
+        "neoforge": "HGgSHFob"
+      },
+      "1.20.1": {
+        "forge": "uKaark2G",
+        "fabric": "85Gc9V3N"
+      },
+      "1.21.1": {
+        "neoforge": "sjrnwdk0",
+        "fabric": "LTP7tFJi"
+      },
+      "26.2": {
+        "neoforge": "UX3mfwaf",
+        "fabric": "aysRhOYW"
+      },
+      "26.1.2": {
+        "fabric": "AWDt2vFE",
+        "neoforge": "Y6N8mmXb"
+      }
     },
     "experience-skills": {
-      "26.1.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ]
+      "26.1.2": {
+        "fabric": "uZp2Q8mN",
+        "neoforge": "wLIdKuyh"
+      },
+      "26.2": {
+        "fabric": "CzUvcuki",
+        "neoforge": "1UFlVsG1"
+      },
+      "26.3": {
+        "neoforge": "QqfMOWK9",
+        "fabric": "U0nrJKKp"
+      }
     },
     "craftulator-coolerpromc": {
-      "26.3": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.20.1": [
-        "forge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "26.2": [
-        "neoforge",
-        "fabric"
-      ]
+      "26.3": {
+        "fabric": "E3aU7V3a",
+        "neoforge": "RuTzz4Ga"
+      },
+      "1.20.1": {
+        "fabric": "IBVKEFDA",
+        "forge": "vlznEfDO"
+      },
+      "1.21.1": {
+        "neoforge": "NCQnmfzH",
+        "fabric": "Y8nQJJzV"
+      },
+      "26.1": {
+        "neoforge": "lwk1tRFi",
+        "fabric": "rLtoGzhX"
+      },
+      "26.2": {
+        "fabric": "YzfnRTxK",
+        "neoforge": "bZ0VW6RD"
+      }
     },
     "productiveslimes": {
-      "1.21.11": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.10": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.9": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.8": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.7": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.6": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.5": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.4": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.21.1": [
-        "neoforge",
-        "fabric"
-      ],
-      "1.20.1": [
-        "forge",
-        "fabric"
-      ],
-      "1.21.3": [
-        "neoforge"
-      ],
-      "1.19.2": [
-        "forge"
-      ],
-      "1.18.2": [
-        "forge"
-      ],
-      "1.16.5": [
-        "forge"
-      ]
+      "1.21.11": {
+        "fabric": "bpSHQ2T7",
+        "neoforge": "8yzLn3Q4"
+      },
+      "1.21.10": {
+        "neoforge": "VvrZfsbo",
+        "fabric": "7uZaQUER"
+      },
+      "1.21.9": {
+        "neoforge": "Ht9Q6Zft",
+        "fabric": "WgAZEvxm"
+      },
+      "1.21.8": {
+        "neoforge": "xYYWT1QE",
+        "fabric": "nq8K1EDp"
+      },
+      "1.21.7": {
+        "neoforge": "3swwIg9y",
+        "fabric": "ZO0RwhTa"
+      },
+      "1.21.6": {
+        "neoforge": "Efuw6pEw",
+        "fabric": "zw5ZornO"
+      },
+      "1.21.5": {
+        "neoforge": "9azVXfxL",
+        "fabric": "CuKDYgI0"
+      },
+      "1.21.4": {
+        "neoforge": "O8QJYgLB",
+        "fabric": "c2jvfWD9"
+      },
+      "1.21.1": {
+        "neoforge": "1zNZHGEp",
+        "fabric": "ffSSvKxG"
+      },
+      "1.20.1": {
+        "forge": "HtUMYIkW",
+        "fabric": "Kk0NqfSs"
+      },
+      "1.21.3": {
+        "neoforge": "vpKnz3sL"
+      },
+      "1.19.2": {
+        "forge": "lHkzISD9"
+      },
+      "1.18.2": {
+        "forge": "D48Y8lYb"
+      },
+      "1.16.5": {
+        "forge": "qi65qvrE"
+      }
     }
   }
 }

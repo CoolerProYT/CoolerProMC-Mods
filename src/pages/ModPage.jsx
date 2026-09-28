@@ -1,8 +1,8 @@
-import {useMemo, useState} from "react";
+import {Fragment, useMemo, useState} from "react";
 import {Link, useParams} from "react-router-dom";
 import NotFound from "./NotFound.jsx";
 import ModCard from "../components/ModCard.jsx";
-import {compareMc, displayName, isMaintained, LOADERS, modBySlug, modLoaders, mods, STATUS} from "../data/mods.js";
+import {compareMc, curseforgeFileFor, displayName, downloadLinks, isMaintained, LOADERS, modBySlug, modLoaders, mods, STATUS} from "../data/mods.js";
 import {formatCount, timeAgo, useReleases} from "../lib/modrinth.js";
 import {useStats} from "../lib/stats.js";
 import {BookIcon, ChevronDown, ChevronRight, ClockIcon, DownloadIcon, ExternalIcon, GitHubIcon, HeartIcon, TagIcon} from "../components/Icons.jsx";
@@ -22,6 +22,7 @@ function ModDetail({mod}) {
     const loading = !ready;
 
     const versions = useMemo(() => [...mod.versions].sort((a, b) => compareMc(b.mc, a.mc)), [mod]);
+    const [openRow, setOpenRow] = useState(null);
     const related = useMemo(
         () =>
             mods
@@ -159,24 +160,12 @@ function ModDetail({mod}) {
                                         <th scope="col" className="px-4 py-3 font-semibold">Version</th>
                                         <th scope="col" className="px-4 py-3 font-semibold">Loaders</th>
                                         <th scope="col" className="px-4 py-3 text-right font-semibold">Status</th>
+                                        <th scope="col" className="w-0 px-3 py-3"><span className="sr-only">Download</span></th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-white/6">
                                     {versions.map((x) => (
-                                        <tr key={x.mc} className={x.status === "eol" ? "text-muted" : ""}>
-                                            <th scope="row" className="px-4 py-3 text-left font-display text-lg font-bold text-white">
-                                                <span className={x.status === "eol" ? "text-slate-400" : ""}>{x.mc}</span>
-                                            </th>
-                                            <td className="px-4 py-3">
-                                                <LoaderIcons loaders={x.loaders} size="h-5 w-5" className={x.status === "eol" ? "opacity-50 grayscale" : ""}/>
-                                                <span className="sr-only">{x.loaders.map((l) => LOADERS[l].name).join(", ")}</span>
-                                            </td>
-                                            <td className="px-4 py-3 text-right">
-                                                <span className="inline-flex items-center gap-2 text-xs font-medium" style={{color: STATUS[x.status].color}}>
-                                                    <StatusDot status={x.status}/> {STATUS[x.status].label}
-                                                </span>
-                                            </td>
-                                        </tr>
+                                        <VersionRow key={x.mc} mod={mod} row={x} open={openRow === x.mc} onToggle={() => setOpenRow(openRow === x.mc ? null : x.mc)}/>
                                     ))}
                                 </tbody>
                             </table>
@@ -197,6 +186,76 @@ function ModDetail({mod}) {
                 </section>
             </div>
         </main>
+    );
+}
+
+function VersionRow({mod, row: x, open, onToggle}) {
+    const links = useMemo(() => downloadLinks(mod, x), [mod, x]);
+    const hasLinks = links.modrinth.length > 0 || links.curseforge.length > 0;
+    const eol = x.status === "eol";
+    return (
+        <Fragment>
+            <tr className={eol ? "text-muted" : ""}>
+                <th scope="row" className="px-4 py-3 text-left font-display text-lg font-bold text-white">
+                    <span className={eol ? "text-slate-400" : ""}>{x.mc}</span>
+                </th>
+                <td className="px-4 py-3">
+                    <LoaderIcons loaders={x.loaders} size="h-5 w-5" className={eol ? "opacity-50 grayscale" : ""}/>
+                    <span className="sr-only">{x.loaders.map((l) => LOADERS[l].name).join(", ")}</span>
+                </td>
+                <td className="px-4 py-3 text-right">
+                    <span className="inline-flex items-center gap-2 text-xs font-medium" style={{color: STATUS[x.status].color}}>
+                        <StatusDot status={x.status}/> <span className="hidden sm:inline">{STATUS[x.status].label}</span>
+                    </span>
+                </td>
+                <td className="px-3 py-2 text-right">
+                    {hasLinks && (
+                        <button
+                            type="button"
+                            onClick={onToggle}
+                            aria-expanded={open}
+                            aria-label={`Download for Minecraft ${x.mc}`}
+                            className={`inline-flex h-8 items-center gap-1 rounded-md px-2 text-xs font-semibold transition ${open ? "bg-(--accent) text-ink-950" : "bg-white/6 text-slate-200 hover:bg-white/12"}`}
+                        >
+                            <DownloadIcon width="14" height="14"/>
+                            <span className="hidden sm:inline">Download</span>
+                            <ChevronDown width="14" height="14" className={`transition ${open ? "rotate-180" : ""}`}/>
+                        </button>
+                    )}
+                </td>
+            </tr>
+            {open && (
+                <tr className="bg-white/3">
+                    <td colSpan={4} className="px-3 pb-4 pt-2 sm:px-4">
+                        <ul className="space-y-2">
+                            {x.loaders.map((loader) => {
+                                const mr = links.modrinth.find((l) => l.loader === loader);
+                                const cf = links.curseforge.find((l) => l.loader === loader);
+                                if (!mr && !cf) return null;
+                                return (
+                                    <li key={loader} className="flex flex-wrap items-center gap-2">
+                                        <span className="inline-flex w-[5.5rem] items-center gap-1.5 text-sm font-medium text-slate-200 sm:w-28 sm:gap-2">
+                                            <img src={LOADERS[loader].icon} alt="" className="h-4 w-4 object-contain"/> {LOADERS[loader].name}
+                                        </span>
+                                        {mr && (
+                                            <a href={mr.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 rounded-md bg-[#1bd96a] px-2.5 py-1.5 text-xs font-semibold text-ink-950 transition hover:brightness-110">
+                                                <img src="/modrinth.png" alt="" className="h-3.5 w-3.5"/> Modrinth
+                                            </a>
+                                        )}
+                                        {cf && (
+                                            <a href={cf.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 rounded-md bg-[#f16436] px-2.5 py-1.5 text-xs font-semibold text-white transition hover:brightness-110">
+                                                <img src="/cf.png" alt="" className="h-3.5 w-3.5"/> CurseForge
+                                            </a>
+                                        )}
+                                        {(mr ?? cf).mc !== x.mc && !x.mc.includes("-") && <span className="text-xs text-muted">({(mr ?? cf).mc})</span>}
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                    </td>
+                </tr>
+            )}
+        </Fragment>
     );
 }
 
@@ -281,9 +340,7 @@ function Releases({mod}) {
                             {expanded && (
                                 <div className="border-t border-white/6 px-4 pb-4 pt-3">
                                     <Changelog text={r.changelog}/>
-                                    <a href={`${mod.links.modrinth}/version/${r.id}`} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center gap-2 rounded-lg bg-(--accent) px-3.5 py-2 text-sm font-semibold text-ink-950 transition hover:brightness-110">
-                                        <DownloadIcon width="16" height="16"/> Download on Modrinth
-                                    </a>
+                                    <ReleaseDownloads mod={mod} release={r}/>
                                 </div>
                             )}
                         </article>
@@ -292,6 +349,35 @@ function Releases({mod}) {
                 {data && data.length === 0 && <div className="card p-6 text-sm text-muted">No releases found.</div>}
             </div>
         </section>
+    );
+}
+
+function ReleaseDownloads({mod, release: r}) {
+    const loaders = r.loaders.filter((l) => LOADERS[l] && r.ids[l]);
+    const cfLinks = loaders.map((l) => curseforgeFileFor(mod, l, r.ids[l]));
+    return (
+        <div className="mt-4 space-y-2">
+            {loaders.map((loader, i) => (
+                <div key={loader} className="flex flex-wrap items-center gap-2">
+                    <span className="inline-flex w-[5.5rem] items-center gap-1.5 text-sm font-medium text-slate-200 sm:w-28 sm:gap-2">
+                        <img src={LOADERS[loader].icon} alt="" className="h-4 w-4 object-contain"/> {LOADERS[loader].name}
+                    </span>
+                    <a href={`${mod.links.modrinth}/version/${r.ids[loader]}`} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 rounded-md bg-[#1bd96a] px-2.5 py-1.5 text-xs font-semibold text-ink-950 transition hover:brightness-110">
+                        <img src="/modrinth.png" alt="" className="h-3.5 w-3.5"/> Modrinth
+                    </a>
+                    {cfLinks[i] && (
+                        <a href={cfLinks[i]} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 rounded-md bg-[#f16436] px-2.5 py-1.5 text-xs font-semibold text-white transition hover:brightness-110">
+                            <img src="/cf.png" alt="" className="h-3.5 w-3.5"/> CurseForge
+                        </a>
+                    )}
+                </div>
+            ))}
+            {mod.links.curseforge && cfLinks.some((x) => !x) && (
+                <a href={`${mod.links.curseforge}/files/all`} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-xs text-muted hover:text-white">
+                    Older files on CurseForge <ExternalIcon width="12" height="12"/>
+                </a>
+            )}
+        </div>
     );
 }
 

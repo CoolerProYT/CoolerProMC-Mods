@@ -35,13 +35,13 @@ try {
     const {data} = await res.json();
     const LOADER = {1: "forge", 4: "fabric", 6: "neoforge"};
     for (const p of data) {
-        // Minecraft version -> loaders, from the latest file per version/loader.
+        // versions[mcVersion][loader] = newest file ID, from the latest file per version/loader.
         const versions = {};
         for (const f of p.latestFilesIndexes ?? []) {
             const loader = LOADER[f.modLoader];
             if (!loader || !/^\d+(\.\d+)+$/.test(f.gameVersion)) continue;
-            const list = (versions[f.gameVersion] ??= []);
-            if (!list.includes(loader)) list.push(loader);
+            const byLoader = (versions[f.gameVersion] ??= {});
+            byLoader[loader] = Math.max(byLoader[loader] ?? 0, f.fileId);
         }
         bySlug[p.slug] = {
             id: p.id,

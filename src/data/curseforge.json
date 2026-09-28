@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T14:23:50.507Z",
+  "generatedAt": "2026-09-28T14:33:40.345Z",
   "source": "api",
   "mods": {
     "uncraft-everything": {
@@ -8,88 +8,88 @@
       "updated": "2026-09-26T06:32:28.25Z",
       "published": "2025-04-17T07:59:46.257Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.1": [
-          "neoforge",
-          "forge",
-          "fabric"
-        ],
-        "26.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.11": [
-          "fabric",
-          "forge",
-          "neoforge"
-        ],
-        "1.20.1": [
-          "forge",
-          "fabric"
-        ],
-        "1.16.5": [
-          "forge",
-          "fabric"
-        ],
-        "1.18.2": [
-          "forge"
-        ],
-        "1.19.2": [
-          "forge"
-        ],
-        "1.21.5": [
-          "forge",
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.8": [
-          "forge",
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.10": [
-          "forge",
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.9": [
-          "neoforge",
-          "fabric",
-          "forge"
-        ],
-        "1.21.7": [
-          "fabric",
-          "neoforge",
-          "forge"
-        ],
-        "1.21.6": [
-          "fabric",
-          "forge",
-          "neoforge"
-        ],
-        "1.21.4": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.20.6": [
-          "neoforge",
-          "fabric"
-        ]
+        "26.3": {
+          "fabric": 8978426,
+          "neoforge": 8978425
+        },
+        "26.2": {
+          "fabric": 8978413,
+          "neoforge": 8978412
+        },
+        "26.1.2": {
+          "fabric": 8978401,
+          "neoforge": 8978400
+        },
+        "1.21.1": {
+          "neoforge": 8978317,
+          "forge": 7626929,
+          "fabric": 7147320
+        },
+        "26.1": {
+          "neoforge": 8147239,
+          "fabric": 8147238
+        },
+        "26.1.1": {
+          "neoforge": 8147239,
+          "fabric": 8147238
+        },
+        "1.21.11": {
+          "fabric": 7794014,
+          "forge": 7729037,
+          "neoforge": 7728843
+        },
+        "1.20.1": {
+          "forge": 7729008,
+          "fabric": 7147316
+        },
+        "1.16.5": {
+          "forge": 7627056,
+          "fabric": 6985937
+        },
+        "1.18.2": {
+          "forge": 7626956
+        },
+        "1.19.2": {
+          "forge": 7626945
+        },
+        "1.21.5": {
+          "forge": 7626924,
+          "neoforge": 6985957,
+          "fabric": 6985953
+        },
+        "1.21.8": {
+          "forge": 7626911,
+          "fabric": 7147315,
+          "neoforge": 7141685
+        },
+        "1.21.10": {
+          "forge": 7626898,
+          "neoforge": 7488897,
+          "fabric": 7464437
+        },
+        "1.21.9": {
+          "neoforge": 7151141,
+          "fabric": 7124385,
+          "forge": 7069445
+        },
+        "1.21.7": {
+          "fabric": 7147315,
+          "neoforge": 7141685,
+          "forge": 7141684
+        },
+        "1.21.6": {
+          "fabric": 7147315,
+          "forge": 7141684,
+          "neoforge": 6708120
+        },
+        "1.21.4": {
+          "neoforge": 6985952,
+          "fabric": 6985951
+        },
+        "1.20.6": {
+          "neoforge": 6498905,
+          "fabric": 6498904
+        }
       }
     },
     "cobblemon-better-campfire-pot": {
@@ -98,10 +98,10 @@
       "updated": "2026-09-26T02:58:42.9Z",
       "published": "2026-01-20T09:16:28.33Z",
       "versions": {
-        "1.21.1": [
-          "fabric",
-          "neoforge"
-        ]
+        "1.21.1": {
+          "fabric": 8977417,
+          "neoforge": 8977416
+        }
       }
     },
     "experience-skills": {
@@ -110,18 +110,18 @@
       "updated": "2026-09-24T11:57:53.12Z",
       "published": "2026-07-15T13:18:00.403Z",
       "versions": {
-        "26.1.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ]
+        "26.1.2": {
+          "neoforge": 8963185,
+          "fabric": 8963184
+        },
+        "26.2": {
+          "fabric": 8963171,
+          "neoforge": 8963170
+        },
+        "26.3": {
+          "fabric": 8963143,
+          "neoforge": 8963142
+        }
       }
     },
     "more-gears": {
@@ -130,66 +130,66 @@
       "updated": "2026-09-22T13:12:50.17Z",
       "published": "2025-01-16T14:22:49.87Z",
       "versions": {
-        "26.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.11": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.10": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.20.1": [
-          "fabric",
-          "forge"
-        ],
-        "1.21.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.4": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.5": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.8": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.9": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.7": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.6": [
-          "fabric",
-          "neoforge"
-        ]
+        "26.1": {
+          "neoforge": 8946893,
+          "fabric": 8946892
+        },
+        "26.1.1": {
+          "neoforge": 8946893,
+          "fabric": 8946892
+        },
+        "26.1.2": {
+          "neoforge": 8946893,
+          "fabric": 8946892
+        },
+        "26.2": {
+          "neoforge": 8946766,
+          "fabric": 8946765
+        },
+        "26.3": {
+          "fabric": 8946571,
+          "neoforge": 8946570
+        },
+        "1.21.11": {
+          "fabric": 7598769,
+          "neoforge": 7598656
+        },
+        "1.21.10": {
+          "fabric": 7467129,
+          "neoforge": 7466943
+        },
+        "1.20.1": {
+          "fabric": 7407394,
+          "forge": 7407141
+        },
+        "1.21.1": {
+          "fabric": 7407374,
+          "neoforge": 7407116
+        },
+        "1.21.4": {
+          "fabric": 7407359,
+          "neoforge": 7407097
+        },
+        "1.21.5": {
+          "fabric": 7407350,
+          "neoforge": 7407090
+        },
+        "1.21.8": {
+          "fabric": 7407301,
+          "neoforge": 7407065
+        },
+        "1.21.9": {
+          "neoforge": 7082593,
+          "fabric": 7082591
+        },
+        "1.21.7": {
+          "fabric": 6712874,
+          "neoforge": 6712849
+        },
+        "1.21.6": {
+          "fabric": 6663918,
+          "neoforge": 6663475
+        }
       }
     },
     "skipping-stone": {
@@ -198,18 +198,18 @@
       "updated": "2026-09-19T09:20:17.197Z",
       "published": "2026-09-19T07:33:35.74Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.2": [
-          "fabric",
-          "neoforge"
-        ]
+        "26.3": {
+          "fabric": 8919162,
+          "neoforge": 8919161
+        },
+        "26.2": {
+          "fabric": 8919050,
+          "neoforge": 8919049
+        },
+        "26.1.2": {
+          "fabric": 8918332,
+          "neoforge": 8918331
+        }
       }
     },
     "configurable-sponge": {
@@ -218,18 +218,18 @@
       "updated": "2026-09-19T08:56:04.637Z",
       "published": "2026-09-19T10:05:18.763Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.2": [
-          "fabric",
-          "neoforge"
-        ]
+        "26.3": {
+          "fabric": 8918997,
+          "neoforge": 8918996
+        },
+        "26.2": {
+          "fabric": 8918931,
+          "neoforge": 8918930
+        },
+        "26.1.2": {
+          "fabric": 8918852,
+          "neoforge": 8918851
+        }
       }
     },
     "fishtrap": {
@@ -238,18 +238,18 @@
       "updated": "2026-09-16T08:55:50.297Z",
       "published": "2026-09-16T09:21:25.577Z",
       "versions": {
-        "26.3": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.2": [
-          "neoforge",
-          "fabric"
-        ]
+        "26.3": {
+          "neoforge": 8893932,
+          "fabric": 8893931
+        },
+        "26.2": {
+          "fabric": 8893758,
+          "neoforge": 8893757
+        },
+        "26.1.2": {
+          "neoforge": 8893456,
+          "fabric": 8893455
+        }
       }
     },
     "ancient-creature": {
@@ -258,18 +258,18 @@
       "updated": "2026-09-16T02:50:58.17Z",
       "published": "2026-08-02T11:43:44.947Z",
       "versions": {
-        "26.3": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ]
+        "26.3": {
+          "neoforge": 8892491,
+          "fabric": 8892490
+        },
+        "26.1.2": {
+          "neoforge": 8879007,
+          "fabric": 8879006
+        },
+        "26.2": {
+          "fabric": 8878998,
+          "neoforge": 8878997
+        }
       }
     },
     "archery-things": {
@@ -278,34 +278,34 @@
       "updated": "2026-09-16T02:46:11.657Z",
       "published": "2026-01-02T08:48:00.493Z",
       "versions": {
-        "26.3": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.10": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.11": [
-          "fabric",
-          "neoforge"
-        ]
+        "26.3": {
+          "neoforge": 8892466,
+          "fabric": 8892465
+        },
+        "26.2": {
+          "fabric": 8744780,
+          "neoforge": 8744779
+        },
+        "26.1.2": {
+          "neoforge": 8744715,
+          "fabric": 8744714
+        },
+        "26.1": {
+          "neoforge": 7965123,
+          "fabric": 7940593
+        },
+        "26.1.1": {
+          "neoforge": 7965123,
+          "fabric": 7940593
+        },
+        "1.21.10": {
+          "fabric": 7784129,
+          "neoforge": 7784091
+        },
+        "1.21.11": {
+          "fabric": 7784125,
+          "neoforge": 7784074
+        }
       }
     },
     "arrow": {
@@ -314,75 +314,75 @@
       "updated": "2026-09-26T13:19:54.84Z",
       "published": "2025-07-30T09:57:30.593Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.1": [
-          "neoforge",
-          "fabric",
-          "forge"
-        ],
-        "26.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.10": [
-          "fabric",
-          "forge",
-          "neoforge"
-        ],
-        "1.21.11": [
-          "fabric",
-          "forge",
-          "neoforge"
-        ],
-        "1.20.1": [
-          "forge",
-          "fabric"
-        ],
-        "1.21.9": [
-          "forge",
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.4": [
-          "forge",
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.8": [
-          "forge",
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.7": [
-          "forge",
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.6": [
-          "forge",
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.5": [
-          "forge",
-          "fabric",
-          "neoforge"
-        ]
+        "26.3": {
+          "fabric": 8981101,
+          "neoforge": 8981100
+        },
+        "26.1": {
+          "fabric": 8311875,
+          "neoforge": 8311874
+        },
+        "26.1.1": {
+          "fabric": 8311875,
+          "neoforge": 8311874
+        },
+        "26.1.2": {
+          "fabric": 8311875,
+          "neoforge": 8311874
+        },
+        "1.21.1": {
+          "neoforge": 8311836,
+          "fabric": 7559086,
+          "forge": 7093372
+        },
+        "26.2": {
+          "neoforge": 8264236,
+          "fabric": 8264235
+        },
+        "1.21.10": {
+          "fabric": 7661890,
+          "forge": 7570808,
+          "neoforge": 7570779
+        },
+        "1.21.11": {
+          "fabric": 7661850,
+          "forge": 7570803,
+          "neoforge": 7570766
+        },
+        "1.20.1": {
+          "forge": 7559019,
+          "fabric": 7093368
+        },
+        "1.21.9": {
+          "forge": 7056253,
+          "neoforge": 7049583,
+          "fabric": 7049561
+        },
+        "1.21.4": {
+          "forge": 6832046,
+          "fabric": 6831525,
+          "neoforge": 6828190
+        },
+        "1.21.8": {
+          "forge": 6832023,
+          "fabric": 6831529,
+          "neoforge": 6828193
+        },
+        "1.21.7": {
+          "forge": 6832023,
+          "fabric": 6831529,
+          "neoforge": 6828193
+        },
+        "1.21.6": {
+          "forge": 6832023,
+          "fabric": 6831529,
+          "neoforge": 6828193
+        },
+        "1.21.5": {
+          "forge": 6831984,
+          "fabric": 6831526,
+          "neoforge": 6828192
+        }
       }
     },
     "craftulator": {
@@ -391,26 +391,26 @@
       "updated": "2026-09-16T02:34:06.697Z",
       "published": "2026-08-17T13:02:43.007Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.20.1": [
-          "fabric",
-          "forge"
-        ],
-        "1.21.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.2": [
-          "neoforge",
-          "fabric"
-        ]
+        "26.3": {
+          "fabric": 8892393,
+          "neoforge": 8892392
+        },
+        "1.20.1": {
+          "fabric": 8675062,
+          "forge": 8675061
+        },
+        "1.21.1": {
+          "fabric": 8670897,
+          "neoforge": 8670896
+        },
+        "26.1": {
+          "fabric": 8670068,
+          "neoforge": 8670067
+        },
+        "26.2": {
+          "neoforge": 8669692,
+          "fabric": 8669691
+        }
       }
     },
     "easy-brewing": {
@@ -419,39 +419,39 @@
       "updated": "2026-09-16T02:31:38.9Z",
       "published": "2025-12-16T08:48:00.603Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.20.1": [
-          "forge",
-          "fabric"
-        ],
-        "1.21.11": [
-          "fabric",
-          "forge",
-          "neoforge"
-        ]
+        "26.3": {
+          "fabric": 8892382,
+          "neoforge": 8892381
+        },
+        "26.2": {
+          "fabric": 8264172,
+          "neoforge": 8264171
+        },
+        "1.21.1": {
+          "neoforge": 8211652,
+          "fabric": 7915592
+        },
+        "26.1": {
+          "neoforge": 8190052,
+          "fabric": 8190051
+        },
+        "26.1.1": {
+          "neoforge": 8190052,
+          "fabric": 8190051
+        },
+        "26.1.2": {
+          "neoforge": 8190052,
+          "fabric": 8190051
+        },
+        "1.20.1": {
+          "forge": 8164979,
+          "fabric": 7614207
+        },
+        "1.21.11": {
+          "fabric": 7614010,
+          "forge": 7613921,
+          "neoforge": 7613905
+        }
       }
     },
     "fletching-recipe": {
@@ -460,44 +460,44 @@
       "updated": "2026-09-16T02:24:43.927Z",
       "published": "2025-10-14T06:55:39.287Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.10": [
-          "fabric",
-          "forge",
-          "neoforge"
-        ],
-        "1.21.11": [
-          "fabric",
-          "forge",
-          "neoforge"
-        ],
-        "1.20.1": [
-          "fabric",
-          "forge"
-        ]
+        "26.3": {
+          "fabric": 8892352,
+          "neoforge": 8892351
+        },
+        "26.2": {
+          "fabric": 8834608,
+          "neoforge": 8834607
+        },
+        "26.1.2": {
+          "fabric": 8189918,
+          "neoforge": 8189917
+        },
+        "26.1": {
+          "neoforge": 8160146,
+          "fabric": 8160145
+        },
+        "26.1.1": {
+          "neoforge": 8160146,
+          "fabric": 8160145
+        },
+        "1.21.1": {
+          "neoforge": 8160038,
+          "fabric": 7742146
+        },
+        "1.21.10": {
+          "fabric": 7742118,
+          "forge": 7741960,
+          "neoforge": 7741887
+        },
+        "1.21.11": {
+          "fabric": 7742088,
+          "forge": 7741935,
+          "neoforge": 7741859
+        },
+        "1.20.1": {
+          "fabric": 7370124,
+          "forge": 7370099
+        }
       }
     },
     "more-sponge": {
@@ -506,18 +506,18 @@
       "updated": "2026-09-16T02:19:05.577Z",
       "published": "2026-06-03T07:12:56.363Z",
       "versions": {
-        "26.3": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.2": [
-          "neoforge",
-          "fabric"
-        ]
+        "26.3": {
+          "neoforge": 8892319,
+          "fabric": 8892318
+        },
+        "26.2": {
+          "neoforge": 8263986,
+          "fabric": 8263985
+        },
+        "26.1.2": {
+          "neoforge": 8211108,
+          "fabric": 8211107
+        }
       }
     },
     "resourcestrees": {
@@ -526,48 +526,48 @@
       "updated": "2026-09-16T02:11:41.307Z",
       "published": "2025-09-28T07:43:24.72Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.10": [
-          "fabric",
-          "forge",
-          "neoforge"
-        ],
-        "1.21.11": [
-          "fabric",
-          "forge",
-          "neoforge"
-        ],
-        "1.20.1": [
-          "forge"
-        ],
-        "1.21.9": [
-          "neoforge",
-          "fabric",
-          "forge"
-        ]
+        "26.3": {
+          "fabric": 8892275,
+          "neoforge": 8892274
+        },
+        "26.2": {
+          "fabric": 8835512,
+          "neoforge": 8835511
+        },
+        "26.1.2": {
+          "fabric": 8835377,
+          "neoforge": 8835376
+        },
+        "1.21.1": {
+          "neoforge": 8835027,
+          "fabric": 7961006
+        },
+        "26.1": {
+          "fabric": 7960601,
+          "neoforge": 7960600
+        },
+        "26.1.1": {
+          "fabric": 7960601,
+          "neoforge": 7960600
+        },
+        "1.21.10": {
+          "fabric": 7877586,
+          "forge": 7877542,
+          "neoforge": 7877490
+        },
+        "1.21.11": {
+          "fabric": 7877575,
+          "forge": 7877532,
+          "neoforge": 7877512
+        },
+        "1.20.1": {
+          "forge": 7877429
+        },
+        "1.21.9": {
+          "neoforge": 7078057,
+          "fabric": 7078056,
+          "forge": 7064887
+        }
       }
     },
     "restricted-inventory": {
@@ -576,30 +576,30 @@
       "updated": "2026-09-26T13:29:10.65Z",
       "published": "2026-06-10T07:51:56.51Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.11": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.20.1": [
-          "forge",
-          "fabric"
-        ],
-        "1.21.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.2": [
-          "fabric",
-          "neoforge"
-        ]
+        "26.3": {
+          "fabric": 8981149,
+          "neoforge": 8981148
+        },
+        "1.21.11": {
+          "fabric": 8880126,
+          "neoforge": 8880125
+        },
+        "1.20.1": {
+          "forge": 8879397,
+          "fabric": 8879396
+        },
+        "1.21.1": {
+          "fabric": 8879340,
+          "neoforge": 8879339
+        },
+        "26.2": {
+          "neoforge": 8879309,
+          "fabric": 8879308
+        },
+        "26.1.2": {
+          "fabric": 8879285,
+          "neoforge": 8879284
+        }
       }
     },
     "terracotta-things": {
@@ -608,19 +608,19 @@
       "updated": "2026-09-16T02:00:23.253Z",
       "published": "2026-05-20T13:00:14.403Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.2": [
-          "forge",
-          "fabric",
-          "neoforge"
-        ]
+        "26.3": {
+          "fabric": 8892198,
+          "neoforge": 8892197
+        },
+        "26.2": {
+          "neoforge": 8263678,
+          "fabric": 8263677
+        },
+        "26.1.2": {
+          "forge": 8168456,
+          "fabric": 8168455,
+          "neoforge": 8168454
+        }
       }
     },
     "unstriplog": {
@@ -629,66 +629,66 @@
       "updated": "2026-09-16T01:51:11.033Z",
       "published": "2025-05-19T10:18:39.127Z",
       "versions": {
-        "26.3": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.11": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.10": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.6": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.5": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.7": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.8": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.9": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.4": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.3": [
-          "neoforge",
-          "fabric"
-        ]
+        "26.3": {
+          "fabric": 8892173,
+          "neoforge": 8892172
+        },
+        "1.21.1": {
+          "neoforge": 8783078,
+          "fabric": 7800146
+        },
+        "26.1.2": {
+          "neoforge": 8684854,
+          "fabric": 8684853
+        },
+        "26.2": {
+          "fabric": 8684816,
+          "neoforge": 8684815
+        },
+        "26.1": {
+          "fabric": 7889400,
+          "neoforge": 7889399
+        },
+        "26.1.1": {
+          "fabric": 7889400,
+          "neoforge": 7889399
+        },
+        "1.21.11": {
+          "neoforge": 7809300,
+          "fabric": 7809248
+        },
+        "1.21.10": {
+          "neoforge": 7086481,
+          "fabric": 7086476
+        },
+        "1.21.6": {
+          "fabric": 7086476,
+          "neoforge": 6663920
+        },
+        "1.21.5": {
+          "fabric": 7086476,
+          "neoforge": 6552495
+        },
+        "1.21.7": {
+          "fabric": 7086476,
+          "neoforge": 6712940
+        },
+        "1.21.8": {
+          "fabric": 7086476,
+          "neoforge": 6782371
+        },
+        "1.21.9": {
+          "fabric": 7086476,
+          "neoforge": 7052665
+        },
+        "1.21.4": {
+          "neoforge": 6552390,
+          "fabric": 6552387
+        },
+        "1.21.3": {
+          "neoforge": 6552386,
+          "fabric": 6552385
+        }
       }
     },
     "lake-feature-fix": {
@@ -697,70 +697,70 @@
       "updated": "2026-06-18T06:40:35.11Z",
       "published": "2025-02-20T12:42:32.267Z",
       "versions": {
-        "1.21.3": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.4": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.7": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.8": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.5": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.9": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.11": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.6": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.2": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.10": [
-          "neoforge",
-          "fabric"
-        ],
-        "26.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.1": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.1.2": [
-          "fabric",
-          "neoforge"
-        ],
-        "26.2": [
-          "fabric",
-          "neoforge"
-        ]
+        "1.21.3": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21.4": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21.7": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21.1": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21.8": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21.5": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21.9": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21.11": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21.6": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21.2": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "1.21.10": {
+          "neoforge": 8271061,
+          "fabric": 8271060
+        },
+        "26.1": {
+          "fabric": 8270800,
+          "neoforge": 8270799
+        },
+        "26.1.1": {
+          "fabric": 8270800,
+          "neoforge": 8270799
+        },
+        "26.1.2": {
+          "fabric": 8270800,
+          "neoforge": 8270799
+        },
+        "26.2": {
+          "fabric": 8270800,
+          "neoforge": 8270799
+        }
       }
     },
     "productive-slimes": {
@@ -769,58 +769,58 @@
       "updated": "2025-12-17T12:11:04.897Z",
       "published": "2024-09-04T12:23:57.53Z",
       "versions": {
-        "1.21.11": [
-          "fabric",
-          "neoforge"
-        ],
-        "1.21.10": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.9": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.8": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.7": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.6": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.5": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.4": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.21.1": [
-          "neoforge",
-          "fabric"
-        ],
-        "1.20.1": [
-          "forge",
-          "fabric"
-        ],
-        "1.21.3": [
-          "neoforge"
-        ],
-        "1.19.2": [
-          "forge"
-        ],
-        "1.18.2": [
-          "forge"
-        ],
-        "1.16.5": [
-          "forge"
-        ]
+        "1.21.11": {
+          "fabric": 7343795,
+          "neoforge": 7343767
+        },
+        "1.21.10": {
+          "neoforge": 7082091,
+          "fabric": 7082090
+        },
+        "1.21.9": {
+          "neoforge": 7052623,
+          "fabric": 7052620
+        },
+        "1.21.8": {
+          "neoforge": 6782450,
+          "fabric": 6782448
+        },
+        "1.21.7": {
+          "neoforge": 6715059,
+          "fabric": 6715058
+        },
+        "1.21.6": {
+          "neoforge": 6681725,
+          "fabric": 6681724
+        },
+        "1.21.5": {
+          "neoforge": 6586194,
+          "fabric": 6406792
+        },
+        "1.21.4": {
+          "neoforge": 6584482,
+          "fabric": 6219881
+        },
+        "1.21.1": {
+          "neoforge": 6391356,
+          "fabric": 6219873
+        },
+        "1.20.1": {
+          "forge": 6391352,
+          "fabric": 6216519
+        },
+        "1.21.3": {
+          "neoforge": 6219874
+        },
+        "1.19.2": {
+          "forge": 6129641
+        },
+        "1.18.2": {
+          "forge": 6129639
+        },
+        "1.16.5": {
+          "forge": 6129638
+        }
       }
     }
   }

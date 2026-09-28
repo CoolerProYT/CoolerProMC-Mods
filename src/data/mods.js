@@ -613,9 +613,10 @@ function withAutoVersions(mod) {
     const found = {};
     const sources = [modrinthVersions.mods[mod.modrinth], curseforge.mods[mod.curseforge]?.versions];
     for (const src of sources) {
-        for (const [mc, loaders] of Object.entries(src ?? {})) {
+        // Each source is {mcVersion: {loader: fileId}}.
+        for (const [mc, byLoader] of Object.entries(src ?? {})) {
             const set = (found[mc] ??= new Set());
-            loaders.forEach((l) => set.add(l));
+            Object.keys(byLoader).forEach((l) => set.add(l));
         }
     }
 
@@ -634,6 +635,45 @@ function withAutoVersions(mod) {
 }
 
 export const mods = manualMods.map(withAutoVersions);
+
+// Published Minecraft versions that belong to a table row, newest first: an exact match or anything
+// inside a range ("1.21.6-1.21.8"); failing that, patch releases of the same minor that no other row
+// names (e.g. a "26.4" row whose only upload is tagged 26.4.1).
+function versionsForRow(published, mod, rowMc) {
+    const [start, end = start] = rowMc.split("-");
+    const all = Object.keys(published).sort(compareMc).reverse();
+    const inRow = all.filter((gv) => compareMc(gv, start) >= 0 && compareMc(gv, end) <= 0);
+    if (inRow.length) return inRow;
+    const named = new Set(mod.versions.flatMap((x) => x.mc.split("-")));
+    return all.filter((gv) => minorOf(gv) === minorOf(start) && compareMc(gv, start) >= 0 && !named.has(gv));
+}
+
+/**
+ * CurseForge file matching a Modrinth release. Only knowable when that release is the newest
+ * Modrinth file for its Minecraft version + loader: then it's the twin of CurseForge's newest file there.
+ */
+export function curseforgeFileFor(mod, loader, modrinthId) {
+    const mr = modrinthVersions.mods[mod.modrinth] ?? {};
+    const cf = curseforge.mods[mod.curseforge]?.versions ?? {};
+    const gv = Object.keys(mr).sort(compareMc).reverse().find((v) => mr[v][loader] === modrinthId && cf[v]?.[loader]);
+    return gv && mod.links.curseforge ? `${mod.links.curseforge}/files/${cf[gv][loader]}` : null;
+}
+
+/** Direct links to the newest file for each loader of a version row: {modrinth: [...], curseforge: [...]}. */
+export function downloadLinks(mod, row) {
+    const build = (published, url) => {
+        if (!published || !url) return [];
+        const candidates = versionsForRow(published, mod, row.mc);
+        return row.loaders.flatMap((loader) => {
+            const gv = candidates.find((v) => published[v][loader]);
+            return gv ? [{loader, mc: gv, url: url(published[gv][loader])}] : [];
+        });
+    };
+    return {
+        modrinth: build(modrinthVersions.mods[mod.modrinth], mod.links.modrinth && ((id) => `${mod.links.modrinth}/version/${id}`)),
+        curseforge: build(curseforge.mods[mod.curseforge]?.versions, mod.links.curseforge && ((id) => `${mod.links.curseforge}/files/${id}`)),
+    };
+}
 
 export const allMcVersions = [...new Set(mods.flatMap((m) => m.versions.map((x) => x.mc)))].sort(compareMc).reverse();
 

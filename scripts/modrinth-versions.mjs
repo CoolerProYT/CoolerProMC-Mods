@@ -1,5 +1,7 @@
-// Records which Minecraft versions + loaders each mod has actually published on Modrinth,
-// so new Minecraft versions show up on the site without editing src/data/mods.js.
+// Records which Minecraft versions + loaders each mod has actually published on Modrinth
+// (and the newest version ID for each), so new Minecraft versions show up on the site without
+// editing src/data/mods.js, and download buttons can link straight to the right file.
+// Shape: mods[slug][mcVersion][loader] = Modrinth version ID.
 // Output: src/data/versions.json. If Modrinth can't be reached, the committed file is kept.
 import {readFile, writeFile} from "node:fs/promises";
 import path from "node:path";
@@ -22,13 +24,15 @@ try {
         });
         if (!res.ok) throw new Error(`${slug}: HTTP ${res.status}`);
         const found = {};
-        for (const v of await res.json()) {
+        // Newest first, so the first ID we see for a version/loader is its latest file.
+        const versions = (await res.json()).sort((a, b) => b.date_published.localeCompare(a.date_published));
+        for (const v of versions) {
             for (const gv of v.game_versions.filter(isRelease)) {
-                const set = (found[gv] ??= new Set());
-                for (const l of v.loaders) if (LOADERS.includes(l)) set.add(l);
+                const byLoader = (found[gv] ??= {});
+                for (const l of v.loaders) if (LOADERS.includes(l)) byLoader[l] ??= v.id;
             }
         }
-        mods[slug] = Object.fromEntries(Object.entries(found).map(([gv, set]) => [gv, LOADERS.filter((l) => set.has(l))]));
+        mods[slug] = found;
     }
     await writeFile(out, JSON.stringify({generatedAt: new Date().toISOString(), mods}, null, 2) + "\n");
     console.log(`modrinth-versions: updated ${slugs.length} projects`);
