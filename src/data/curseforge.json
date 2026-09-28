@@ -1,26 +1,827 @@
 {
-  "generatedAt": "2026-09-26T07:00:00.000Z",
-  "source": "snapshot",
+  "generatedAt": "2026-09-28T14:23:50.507Z",
+  "source": "api",
   "mods": {
-    "uncraft-everything": {"id": 1244428, "downloads": 252409, "updated": null, "published": null},
-    "cobblemon-better-campfire-pot": {"id": 1437573, "downloads": 207019, "updated": null, "published": null},
-    "experience-skills": {"id": 1611330, "downloads": 1138, "updated": null, "published": null},
-    "more-gears": {"id": 1180717, "downloads": 54012, "updated": null, "published": null},
-    "skipping-stone": {"id": 1702284, "downloads": 105, "updated": null, "published": null},
-    "configurable-sponge": {"id": 1702392, "downloads": 62, "updated": null, "published": null},
-    "fishtrap": {"id": 1698064, "downloads": 277, "updated": null, "published": null},
-    "ancient-creature": {"id": 1630188, "downloads": 779, "updated": null, "published": null},
-    "archery-things": {"id": 1418219, "downloads": 28564, "updated": null, "published": null},
-    "arrow": {"id": 1317209, "downloads": 11493, "updated": null, "published": null},
-    "craftulator": {"id": 1656564, "downloads": 186, "updated": null, "published": null},
-    "easy-brewing": {"id": 1405256, "downloads": 10877, "updated": null, "published": null},
-    "fletching-recipe": {"id": 1364606, "downloads": 51342, "updated": null, "published": null},
-    "more-sponge": {"id": 1562784, "downloads": 591, "updated": null, "published": null},
-    "resourcestrees": {"id": 1354532, "downloads": 47140, "updated": null, "published": null},
-    "restricted-inventory": {"id": 1569997, "downloads": 1625, "updated": null, "published": null},
-    "terracotta-things": {"id": 1548711, "downloads": 1887, "updated": null, "published": null},
-    "unstriplog": {"id": 1268448, "downloads": 6651, "updated": null, "published": null},
-    "lake-feature-fix": {"id": 1203911, "downloads": 58326, "updated": null, "published": null},
-    "productive-slimes": {"id": 1096659, "downloads": 6881, "updated": null, "published": null}
+    "uncraft-everything": {
+      "id": 1244428,
+      "downloads": 253929,
+      "updated": "2026-09-26T06:32:28.25Z",
+      "published": "2025-04-17T07:59:46.257Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.1": [
+          "neoforge",
+          "forge",
+          "fabric"
+        ],
+        "26.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.11": [
+          "fabric",
+          "forge",
+          "neoforge"
+        ],
+        "1.20.1": [
+          "forge",
+          "fabric"
+        ],
+        "1.16.5": [
+          "forge",
+          "fabric"
+        ],
+        "1.18.2": [
+          "forge"
+        ],
+        "1.19.2": [
+          "forge"
+        ],
+        "1.21.5": [
+          "forge",
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.8": [
+          "forge",
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.10": [
+          "forge",
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.9": [
+          "neoforge",
+          "fabric",
+          "forge"
+        ],
+        "1.21.7": [
+          "fabric",
+          "neoforge",
+          "forge"
+        ],
+        "1.21.6": [
+          "fabric",
+          "forge",
+          "neoforge"
+        ],
+        "1.21.4": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.20.6": [
+          "neoforge",
+          "fabric"
+        ]
+      }
+    },
+    "cobblemon-better-campfire-pot": {
+      "id": 1437573,
+      "downloads": 209250,
+      "updated": "2026-09-26T02:58:42.9Z",
+      "published": "2026-01-20T09:16:28.33Z",
+      "versions": {
+        "1.21.1": [
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "experience-skills": {
+      "id": 1611330,
+      "downloads": 1220,
+      "updated": "2026-09-24T11:57:53.12Z",
+      "published": "2026-07-15T13:18:00.403Z",
+      "versions": {
+        "26.1.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "more-gears": {
+      "id": 1180717,
+      "downloads": 54456,
+      "updated": "2026-09-22T13:12:50.17Z",
+      "published": "2025-01-16T14:22:49.87Z",
+      "versions": {
+        "26.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.11": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.10": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.20.1": [
+          "fabric",
+          "forge"
+        ],
+        "1.21.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.4": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.5": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.8": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.9": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.7": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.6": [
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "skipping-stone": {
+      "id": 1702284,
+      "downloads": 120,
+      "updated": "2026-09-19T09:20:17.197Z",
+      "published": "2026-09-19T07:33:35.74Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.2": [
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "configurable-sponge": {
+      "id": 1702392,
+      "downloads": 67,
+      "updated": "2026-09-19T08:56:04.637Z",
+      "published": "2026-09-19T10:05:18.763Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.2": [
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "fishtrap": {
+      "id": 1698064,
+      "downloads": 335,
+      "updated": "2026-09-16T08:55:50.297Z",
+      "published": "2026-09-16T09:21:25.577Z",
+      "versions": {
+        "26.3": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.2": [
+          "neoforge",
+          "fabric"
+        ]
+      }
+    },
+    "ancient-creature": {
+      "id": 1630188,
+      "downloads": 848,
+      "updated": "2026-09-16T02:50:58.17Z",
+      "published": "2026-08-02T11:43:44.947Z",
+      "versions": {
+        "26.3": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "archery-things": {
+      "id": 1418219,
+      "downloads": 28869,
+      "updated": "2026-09-16T02:46:11.657Z",
+      "published": "2026-01-02T08:48:00.493Z",
+      "versions": {
+        "26.3": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.10": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.11": [
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "arrow": {
+      "id": 1317209,
+      "downloads": 11539,
+      "updated": "2026-09-26T13:19:54.84Z",
+      "published": "2025-07-30T09:57:30.593Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.1": [
+          "neoforge",
+          "fabric",
+          "forge"
+        ],
+        "26.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.10": [
+          "fabric",
+          "forge",
+          "neoforge"
+        ],
+        "1.21.11": [
+          "fabric",
+          "forge",
+          "neoforge"
+        ],
+        "1.20.1": [
+          "forge",
+          "fabric"
+        ],
+        "1.21.9": [
+          "forge",
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.4": [
+          "forge",
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.8": [
+          "forge",
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.7": [
+          "forge",
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.6": [
+          "forge",
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.5": [
+          "forge",
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "craftulator": {
+      "id": 1656564,
+      "downloads": 195,
+      "updated": "2026-09-16T02:34:06.697Z",
+      "published": "2026-08-17T13:02:43.007Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.20.1": [
+          "fabric",
+          "forge"
+        ],
+        "1.21.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.2": [
+          "neoforge",
+          "fabric"
+        ]
+      }
+    },
+    "easy-brewing": {
+      "id": 1405256,
+      "downloads": 10979,
+      "updated": "2026-09-16T02:31:38.9Z",
+      "published": "2025-12-16T08:48:00.603Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.20.1": [
+          "forge",
+          "fabric"
+        ],
+        "1.21.11": [
+          "fabric",
+          "forge",
+          "neoforge"
+        ]
+      }
+    },
+    "fletching-recipe": {
+      "id": 1364606,
+      "downloads": 51683,
+      "updated": "2026-09-16T02:24:43.927Z",
+      "published": "2025-10-14T06:55:39.287Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.10": [
+          "fabric",
+          "forge",
+          "neoforge"
+        ],
+        "1.21.11": [
+          "fabric",
+          "forge",
+          "neoforge"
+        ],
+        "1.20.1": [
+          "fabric",
+          "forge"
+        ]
+      }
+    },
+    "more-sponge": {
+      "id": 1562784,
+      "downloads": 610,
+      "updated": "2026-09-16T02:19:05.577Z",
+      "published": "2026-06-03T07:12:56.363Z",
+      "versions": {
+        "26.3": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.2": [
+          "neoforge",
+          "fabric"
+        ]
+      }
+    },
+    "resourcestrees": {
+      "id": 1354532,
+      "downloads": 47572,
+      "updated": "2026-09-16T02:11:41.307Z",
+      "published": "2025-09-28T07:43:24.72Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.10": [
+          "fabric",
+          "forge",
+          "neoforge"
+        ],
+        "1.21.11": [
+          "fabric",
+          "forge",
+          "neoforge"
+        ],
+        "1.20.1": [
+          "forge"
+        ],
+        "1.21.9": [
+          "neoforge",
+          "fabric",
+          "forge"
+        ]
+      }
+    },
+    "restricted-inventory": {
+      "id": 1569997,
+      "downloads": 1651,
+      "updated": "2026-09-26T13:29:10.65Z",
+      "published": "2026-06-10T07:51:56.51Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.11": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.20.1": [
+          "forge",
+          "fabric"
+        ],
+        "1.21.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.2": [
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "terracotta-things": {
+      "id": 1548711,
+      "downloads": 1940,
+      "updated": "2026-09-16T02:00:23.253Z",
+      "published": "2026-05-20T13:00:14.403Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.2": [
+          "forge",
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "unstriplog": {
+      "id": 1268448,
+      "downloads": 6675,
+      "updated": "2026-09-16T01:51:11.033Z",
+      "published": "2025-05-19T10:18:39.127Z",
+      "versions": {
+        "26.3": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.11": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.10": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.6": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.5": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.7": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.8": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.9": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.4": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.3": [
+          "neoforge",
+          "fabric"
+        ]
+      }
+    },
+    "lake-feature-fix": {
+      "id": 1203911,
+      "downloads": 58722,
+      "updated": "2026-06-18T06:40:35.11Z",
+      "published": "2025-02-20T12:42:32.267Z",
+      "versions": {
+        "1.21.3": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.4": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.7": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.8": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.5": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.9": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.11": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.6": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.2": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.10": [
+          "neoforge",
+          "fabric"
+        ],
+        "26.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.1": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.1.2": [
+          "fabric",
+          "neoforge"
+        ],
+        "26.2": [
+          "fabric",
+          "neoforge"
+        ]
+      }
+    },
+    "productive-slimes": {
+      "id": 1096659,
+      "downloads": 6888,
+      "updated": "2025-12-17T12:11:04.897Z",
+      "published": "2024-09-04T12:23:57.53Z",
+      "versions": {
+        "1.21.11": [
+          "fabric",
+          "neoforge"
+        ],
+        "1.21.10": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.9": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.8": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.7": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.6": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.5": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.4": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.21.1": [
+          "neoforge",
+          "fabric"
+        ],
+        "1.20.1": [
+          "forge",
+          "fabric"
+        ],
+        "1.21.3": [
+          "neoforge"
+        ],
+        "1.19.2": [
+          "forge"
+        ],
+        "1.18.2": [
+          "forge"
+        ],
+        "1.16.5": [
+          "forge"
+        ]
+      }
+    }
   }
 }

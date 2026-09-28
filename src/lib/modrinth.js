@@ -32,7 +32,9 @@ function cachedFetch(key, url, transform = (x) => x) {
     const hit = cacheGet(key);
     if (hit) return Promise.resolve(hit);
     if (inflight.has(key)) return inflight.get(key);
-    const p = fetch(url)
+    // Modrinth sends `cache-control: max-age` of 31 days, so without this the browser keeps showing
+    // month-old stats. "no-cache" makes it revalidate every time; our own 10-minute cache above covers reuse.
+    const p = fetch(url, {cache: "no-cache"})
         .then((r) => {
             if (!r.ok) throw new Error(`Modrinth ${r.status}`);
             return r.json();
