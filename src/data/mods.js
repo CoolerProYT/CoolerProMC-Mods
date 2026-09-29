@@ -17,7 +17,22 @@ import ueGameplay from "../assets/ue_gameplay.png";
 import modrinthVersions from "./versions.json";
 import curseforge from "./curseforge.json";
 
-const v = (mc, loaders, status = "active") => ({mc, loaders, status});
+// Minecraft versions that share one build and are shown as their newest release. Any row naming a
+// version inside a group (e.g. "26.1", "1.21.9-1.21.10") is labelled with the group's last version,
+// while downloads still match files tagged with any version in the group.
+const MC_GROUPS = [
+    ["1.21.6", "1.21.8"],
+    ["1.21.9", "1.21.10"],
+    ["26.1", "26.1.2"],
+];
+
+function v(mc, loaders, status = "active") {
+    const [start, end = start] = mc.split("-");
+    const group = MC_GROUPS.find(([a, b]) => compareMc(start, a) >= 0 && compareMc(end, b) <= 0);
+    return group ? {mc: group[1], range: group.join("-"), loaders, status} : {mc, loaders, status};
+}
+
+const rowRange = (row) => row.range ?? row.mc;
 const NF = ["neoforge", "fabric"];
 const FF = ["forge", "fabric"];
 const ALL = ["forge", "neoforge", "fabric"];
@@ -620,7 +635,7 @@ function withAutoVersions(mod) {
         }
     }
 
-    const listed = mod.versions.flatMap((x) => x.mc.split("-"));
+    const listed = mod.versions.flatMap((x) => rowRange(x).split("-"));
     const newest = [...listed].sort(compareMc).at(-1);
     const listedMinors = new Set(listed.map(minorOf));
     const extra = {};
@@ -644,7 +659,7 @@ function versionsForRow(published, mod, rowMc) {
     const all = Object.keys(published).sort(compareMc).reverse();
     const inRow = all.filter((gv) => compareMc(gv, start) >= 0 && compareMc(gv, end) <= 0);
     if (inRow.length) return inRow;
-    const named = new Set(mod.versions.flatMap((x) => x.mc.split("-")));
+    const named = new Set(mod.versions.flatMap((x) => rowRange(x).split("-")));
     return all.filter((gv) => minorOf(gv) === minorOf(start) && compareMc(gv, start) >= 0 && !named.has(gv));
 }
 
@@ -663,7 +678,7 @@ export function curseforgeFileFor(mod, loader, modrinthId) {
 export function downloadLinks(mod, row) {
     const build = (published, url) => {
         if (!published || !url) return [];
-        const candidates = versionsForRow(published, mod, row.mc);
+        const candidates = versionsForRow(published, mod, rowRange(row));
         return row.loaders.flatMap((loader) => {
             const gv = candidates.find((v) => published[v][loader]);
             return gv ? [{loader, mc: gv, url: url(published[gv][loader])}] : [];
